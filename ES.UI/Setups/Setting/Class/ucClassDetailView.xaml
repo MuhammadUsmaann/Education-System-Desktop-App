@@ -1,0 +1,122 @@
+﻿<my:BaseUserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:my="clr-namespace:ES.UI"
+               xmlns:ExtendedGridControl="clr-namespace:ExtendedGrid.ExtendedGridControl;assembly=ExtendedGrid"
+            xmlns:ExtendedColumn="clr-namespace:ExtendedGrid.ExtendedColumn;assembly=ExtendedGrid"
+             x:Class="ES.UI.Setups.ucClassDetailView" 
+             mc:Ignorable="d"
+             Loaded="UserControl_Loaded"
+             x:Name="ClassDetailUserControl"
+             d:DesignHeight="300" d:DesignWidth="500" Width="700" Height="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Margin="60 0 0 0" Grid.Row="0" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" Content="Class Name"/>
+            <TextBox Grid.Row="1" Grid.Column="0" Width="200" 
+                 Height="40"
+                 HorizontalAlignment="Left"
+                 IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                 Text="{Binding  Path= ClassDetail.Description, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+            <Label Grid.Row="0" Grid.Column="1" 
+                       HorizontalAlignment="Left"
+                       Content="Class Number" />
+            <TextBox Grid.Row="1" Grid.Column="1" Width="200" 
+                 Height="40"
+                 HorizontalAlignment="Left"
+                 IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                 Text="{Binding  Path=ClassDetail.ClassNumber, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.ColumnSpan="2" Margin="0 15 10 10">
+                <Grid.ColumnDefinitions >
+                    <ColumnDefinition Width="40*"/>
+                    <ColumnDefinition Width="20*"/>
+                    <ColumnDefinition Width="40*"/>
+                </Grid.ColumnDefinitions>
+
+            <ExtendedGridControl:ExtendedDataGrid  x:Name="gvClassSubjectListed" 
+                                                   Grid.Column="0"
+                                                   ItemsSource="{Binding  Path=UnSelectedSubjectList, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                                   Margin="10 0 0 0"
+                                                   AutoGenerateColumns="False" 
+                                                   HideColumnChooser="True"
+                                                   ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                                                   ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                                   CanUserAddRows="False" 
+                                                   OnlyTwoWaySorting="True" 
+                                                   SearchAutoFilterVisibility="Collapsed" 
+                                                   AutoFilterFontSize="12"
+                                                   GroupByControlVisibility="Collapsed">
+                <DataGrid.Columns>
+                    <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Subjects" AllowAutoFilter="True" Width="*" Binding="{Binding Description}" />
+                    <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Type" AllowAutoFilter="True" Width="*" Binding="{Binding Type}" />
+                    <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Compusory" AllowAutoFilter="True" Width="*" Binding="{Binding Compulsory}" />
+                </DataGrid.Columns>
+            </ExtendedGridControl:ExtendedDataGrid>
+
+            <StackPanel Grid.Column="1">
+                    
+                    <Button Content="Add" Width="100" Height="40" Margin="5 10 0 0" x:Name="btnAddSelectedSignleSubject" Click="btnAddSelectedSignleSubject_Click"/>
+                    <Button Content="Remove" Width="100" Height="40" Margin="5 10 0 0" x:Name="btnRemoveSelectedSingleSubject" Click="btnRemoveSelectedSingleSubject_Click"/>
+                    <Button Content="Add All" Width="100" Height="40" Margin="5 10 0 0"  x:Name="btnAddAllSubject" Click="btnAddAllSubject_Click"/>
+                    <Button Content="Remove" Width="100" Height="40" Margin="5 10 0 0" x:Name="btnRemoveAllSubject" Click="btnRemoveAllSubject_Click"/>
+                    
+                </StackPanel>
+
+            <ExtendedGridControl:ExtendedDataGrid  x:Name="gvClassSubjectSelected" 
+                                                   Grid.Row="1"
+                                                   Margin="0 0 10 0"
+                                                   Grid.Column="2"
+                                                   ItemsSource="{Binding  Path=SelectedSubjectList, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                                   AutoGenerateColumns="False" 
+                                                   HideColumnChooser="True"
+                                                   ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                                                   ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                                   CanUserAddRows="False" 
+                                                   OnlyTwoWaySorting="True" 
+                                                   SearchAutoFilterVisibility="Collapsed" 
+                                                   AutoFilterFontSize="12"
+                                                   GroupByControlVisibility="Collapsed">
+                <DataGrid.Columns>
+                    <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Subjects" AllowAutoFilter="True" Width="*" Binding="{Binding Description}" />
+                    <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Type" AllowAutoFilter="True" Width="*" Binding="{Binding Type}" />
+                    <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Compusory" AllowAutoFilter="True" Width="*" Binding="{Binding Compulsory}" />
+                </DataGrid.Columns>
+            </ExtendedGridControl:ExtendedDataGrid>
+            
+                    
+            </Grid>
+       
+
+        <Button Content="{Binding  Path=SaveButtonContent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                           Grid.Row="2" 
+                           Grid.Column="1" 
+                           Height="40" 
+                           Width="100" 
+                           Margin="0 0 40 0" 
+                           x:Name="btnClassSave" 
+                           Click="btnClassSave_Click" HorizontalAlignment="Right"   />
+
+    </Grid>
+</my:BaseUserControl>

@@ -1,0 +1,66 @@
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.exe.config
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Entities.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\System.Data.SQLite.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Entities.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\System.Data.SQLite.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Configurations.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Configurations.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.exe.config
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Entities.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\System.Data.SQLite.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Configurations.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Entities.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\System.Data.SQLite.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Configurations.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.exe.config
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Entities.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\System.Data.SQLite.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Configurations.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Entities.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.xml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\System.Data.SQLite.xml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Configurations.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.pdb
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.dll.config
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.dll
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.BusinessLayer.pdb
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.dll
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\EntityFramework.dll
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Entities.dll
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\System.Data.SQLite.dll
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\System.Data.SQLite.EF6.dll
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\System.Data.SQLite.Linq.dll
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Configurations.dll
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Entities.pdb
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.pdb
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\Dapper.xml
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\EntityFramework.xml
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\System.Data.SQLite.xml
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\bin\Debug\ES.Configurations.pdb
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.csprojResolveAssemblyReference.cache
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.dll
+E:\New Work\My Products\EducationSystemApp\ES.BusinessLayer\obj\Debug\ES.BusinessLayer.pdb

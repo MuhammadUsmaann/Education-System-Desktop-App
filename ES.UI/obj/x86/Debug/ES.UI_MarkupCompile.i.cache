@@ -1,0 +1,20 @@
+﻿ES.UI
+
+
+winexe
+C#
+.cs
+D:\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\
+ES.UI
+none
+false
+DEBUG;TRACE
+D:\My Products\EducationSystemApp\ES.UI\App.xaml
+3740759719
+2116318118
+46-1959347745
+30-244154910
+CommonControls\CustomMessageBox.xaml;CommonControls\DeleteMessageBox.xaml;CommonControls\MainWindowContainer.xaml;CommonControls\PopUpWindow.xaml;CommonControls\RibbonControl.xaml;CommonControls\SplashScreen.xaml;MainWindow.xaml;Reports\Attendance\StudentAttendanceReport.xaml;Resources\Button.xaml;Resources\Style.xaml;Setups\Finance\Pay\ucTeacherPay.xaml;Setups\LoginScreen.xaml;Setups\Setting\Class\ucSectionListView.xaml;Setups\Exams\ucClassResult.xaml;Setups\Setting\Exam\ucExamsSettingListView.xaml;Setups\Setting\Exam\ucGradeSettingListView.xaml;Setups\Exams\ucMarkClassMarksListView.xaml;Setups\Exams\ucStudentResult.xaml;Setups\Attendance\ucClassAttendanceListView.xaml;Setups\Setting\Class\ucClassDetailView.xaml;Setups\Setting\Class\ucClassListView.xaml;Setups\Finance\Fee\ucClassFee.xaml;Setups\Finance\Fee\ucParentFee.xaml;Setups\Finance\Fee\ucStudentFee.xaml;Setups\Setting\Staff\ucEducationDetailView.xaml;Setups\Setting\Staff\ucExperienceDetailView.xaml;Setups\Setting\Student\ucParentSearchListView.xaml;Setups\Setting\Session\ucSessionListView.xaml;Setups\Setting\Session\ucSessionView.xaml;Setups\Setting\Staff\ucStaffDetailView.xaml;Setups\Setting\Staff\ucStaffListView.xaml;Setups\Attendance\ucStudentAttendanceDetailView.xaml;Setups\Setting\Student\ucStudentDetailView.xaml;Setups\Setting\Student\ucStudentListView.xaml;Setups\Setting\Subject\ucSubjectDetailView.xaml;Setups\Setting\Subject\ucSubjectListView.xaml;Setups\Attendance\ucMarkClassAttendance.xaml;
+
+False
+

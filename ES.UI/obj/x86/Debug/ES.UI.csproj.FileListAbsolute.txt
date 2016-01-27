@@ -1,0 +1,552 @@
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\PopUpWindow.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\RibbonControl.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Resources\Style.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucClassListView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\App.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\PopUpWindow.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\RibbonControl.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucClassListView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSessionListView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSessionView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStaffDetailView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStaffListView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\App.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI_MarkupCompile.cache
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI_MarkupCompile.lref
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.UI.exe.config
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.UI.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.UI.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.BusinessLayer.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Configurations.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Entities.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.Core.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.DataProviders.Adomd.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.DataProviders.Queryable.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.DataProviders.Xmla.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Analytics.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Cloud.Controls.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Cloud.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Chart.Direct2D.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Chart.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Charting.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Data.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.DataServices.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.DataServices50.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.DataVisualization.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Diagrams.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Docking.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.EntityFramework.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.EntityFramework60.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Expressions.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewersUI.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.GanttView.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.GridView.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.ImageEditor.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Input.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Navigation.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Pivot.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.PivotFieldList.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.RibbonView.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.ScheduleView.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Spreadsheet.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Data.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Diagrams.Core.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Core.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Fixed.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Flow.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Maths.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.PersistenceFramework.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Scheduling.Core.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Zip.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Zip.Extensions.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Dapper.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\System.Spatial.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.BusinessLayer.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Configurations.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Entities.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.Core.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.DataProviders.Adomd.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.DataProviders.Queryable.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.DataProviders.Xmla.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Analytics.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Cloud.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Cloud.Controls.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Chart.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Chart.Direct2D.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Charting.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Data.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.DataServices.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.DataServices50.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.DataVisualization.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Diagrams.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Docking.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.EntityFramework.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.EntityFramework60.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Expressions.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewersUI.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.GanttView.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.GridView.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.ImageEditor.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Input.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Pivot.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.PivotFieldList.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.RibbonView.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.ScheduleView.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Spreadsheet.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Data.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Diagrams.Core.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Core.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Fixed.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Flow.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Maths.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.PersistenceFramework.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Scheduling.Core.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Zip.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Zip.Extensions.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Dapper.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Dapper.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\System.Spatial.xml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\MainWindow.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSessionListView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSessionView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStaffDetailView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStaffListView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.g.resources
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.Properties.Resources.resources
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.csproj.GenerateResource.Cache
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucExperienceDetailView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucExperienceDetailView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucEducationDetailView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucEducationDetailView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStudentListView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStudentDetailView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStudentDetailView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStudentListView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucParentSearchListView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucParentSearchListView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucClassDetailView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucClassDetailView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\CustomMessageBox.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\CustomMessageBox.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\DeleteMessageBox.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\DeleteMessageBox.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSubjectDetailView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSubjectListView.g.cs
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSubjectDetailView.baml
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSubjectListView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.UI.exe.config
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.csprojResolveAssemblyReference.cache
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\CustomMessageBox.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\DeleteMessageBox.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\PopUpWindow.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\RibbonControl.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Resources\Style.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucClassResult.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\App.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\CustomMessageBox.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\DeleteMessageBox.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\PopUpWindow.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\RibbonControl.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucClassResult.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucExamsSettingListView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucGradeSettingListView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucMarkClassMarksListView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucStudentResult.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucClassAttendanceListView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucClassDetailView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucClassListView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucEducationDetailView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucExperienceDetailView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucParentSearchListView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSessionListView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSessionView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStaffDetailView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStaffListView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStudentAttendanceDetailView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStudentDetailView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStudentListView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSubjectDetailView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSubjectListView.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucMarkClassAttendance.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\App.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI_MarkupCompile.cache
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI_MarkupCompile.lref
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.UI.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.UI.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.BusinessLayer.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Configurations.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Entities.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Dapper.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\System.Data.SQLite.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\System.Spatial.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.BusinessLayer.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Configurations.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Entities.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.Core.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.DataProviders.Adomd.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.DataProviders.Queryable.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Pivot.DataProviders.Xmla.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Analytics.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Cloud.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Cloud.Controls.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Chart.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Chart.Direct2D.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Charting.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Data.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.DataServices.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.DataServices50.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.DataVisualization.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Diagrams.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Diagrams.Extensions.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Docking.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.EntityFramework.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.EntityFramework60.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Expressions.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewers.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.FixedDocumentViewersUI.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.GanttView.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.GridView.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.ImageEditor.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Input.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Pivot.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.PivotFieldList.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.RibbonView.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.RichTextBoxUI.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.ScheduleView.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Controls.Spreadsheet.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Data.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Diagrams.Core.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Core.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Fixed.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Flow.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Html.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.MsRichTextBoxXaml.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.OpenXml.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Pdf.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Rtf.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.FormatProviders.Xaml.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.DataGrid.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.Dictionaries.En-US.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Proofing.RadGridView.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Documents.Spreadsheet.FormatProviders.Pdf.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Maths.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.PersistenceFramework.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Scheduling.Core.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Zip.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Telerik.Windows.Zip.Extensions.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Dapper.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Dapper.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\System.Data.SQLite.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\System.Spatial.xml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\MainWindow.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucExamsSettingListView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucGradeSettingListView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucMarkClassMarksListView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucStudentResult.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucClassAttendanceListView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucClassDetailView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucClassListView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucEducationDetailView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucExperienceDetailView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucParentSearchListView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSessionListView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSessionView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStaffDetailView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStaffListView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStudentAttendanceDetailView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStudentDetailView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucStudentListView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSubjectDetailView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucSubjectListView.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\ucMarkClassAttendance.baml
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.g.resources
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.Properties.Resources.resources
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.csproj.GenerateResource.Cache
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\CustomMessageBox.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\DeleteMessageBox.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\PopUpWindow.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\RibbonControl.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\SplashScreen.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Resources\Button.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Resources\Style.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\App.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\CustomMessageBox.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\DeleteMessageBox.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\MainWindowContainer.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\PopUpWindow.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\RibbonControl.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\RibbonControl_Windows.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\SplashScreen.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Class\ucSectionListView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucClassResult.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucExamsSettingListView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucGradeSettingListView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucMarkClassMarksListView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucStudentResult.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucClassAttendanceListView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Class\ucClassDetailView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Class\ucClassListView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Finance\Fee\ucStudentFee.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Staff\ucEducationDetailView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Staff\ucExperienceDetailView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Student\ucParentSearchListView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Session\ucSessionListView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Session\ucSessionView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Staff\ucStaffDetailView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Staff\ucStaffListView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucStudentAttendanceDetailView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Student\ucStudentDetailView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Student\ucStudentListView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Subject\ucSubjectDetailView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Subject\ucSubjectListView.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucMarkClassAttendance.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\App.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI_MarkupCompile.cache
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI_MarkupCompile.lref
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.UI.exe.config
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.UI.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.UI.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.BusinessLayer.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Configurations.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Controls.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Entities.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ExtendedGrid.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Wpf.TabControl.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Dapper.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\System.Spatial.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.BusinessLayer.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Configurations.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Controls.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ES.Entities.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\ExtendedGrid.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Wpf.TabControl.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Dapper.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Dapper.xml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\bin\Debug\System.Spatial.xml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\MainWindowContainer.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\RibbonControl_Windows.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\MainWindow.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Class\ucSectionListView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucClassResult.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucExamsSettingListView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucGradeSettingListView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucMarkClassMarksListView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucStudentResult.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucClassAttendanceListView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Class\ucClassDetailView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Class\ucClassListView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Finance\Fee\ucStudentFee.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Staff\ucEducationDetailView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Staff\ucExperienceDetailView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Student\ucParentSearchListView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Session\ucSessionListView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Session\ucSessionView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Staff\ucStaffDetailView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Staff\ucStaffListView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucStudentAttendanceDetailView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Student\ucStudentDetailView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Student\ucStudentListView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Subject\ucSubjectDetailView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Subject\ucSubjectListView.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucMarkClassAttendance.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.g.resources
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.Properties.Resources.resources
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.csproj.GenerateResource.Cache
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Finance\Fee\ucClassFee.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Finance\Fee\ucClassFee.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.UI.exe.config
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.UI.exe
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.UI.pdb
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\EntityFramework.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\EntityFramework.SqlServer.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.BusinessLayer.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.Configurations.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.Controls.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.Entities.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ExtendedGrid.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\System.Data.SQLite.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\System.Data.SQLite.EF6.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\System.Data.SQLite.Linq.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\Wpf.TabControl.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\Dapper.dll
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.BusinessLayer.pdb
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.Configurations.pdb
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.Controls.pdb
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.Entities.pdb
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\ExtendedGrid.pdb
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\Wpf.TabControl.pdb
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\EntityFramework.xml
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\EntityFramework.SqlServer.xml
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\System.Data.SQLite.xml
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\Dapper.pdb
+E:\New Work\My Products\EducationSystemApp\ES.UI\bin\Debug\Dapper.xml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.csprojResolveAssemblyReference.cache
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\CustomMessageBox.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\DeleteMessageBox.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\PopUpWindow.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\SplashScreen.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Reports\Attendance\StudentAttendanceReport.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Resources\Button.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Resources\Style.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\LoginScreen.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\App.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\CustomMessageBox.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\DeleteMessageBox.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\MainWindowContainer.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\PopUpWindow.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\RibbonControl.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\SplashScreen.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\MainWindow.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Reports\Attendance\StudentAttendanceReport.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\LoginScreen.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Class\ucSectionListView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucClassResult.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Exam\ucExamsSettingListView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Exam\ucGradeSettingListView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucMarkClassMarksListView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucStudentResult.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucClassAttendanceListView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Class\ucClassDetailView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Class\ucClassListView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Finance\Fee\ucClassFee.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Finance\Fee\ucParentFee.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Finance\Fee\ucStudentFee.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Staff\ucEducationDetailView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Staff\ucExperienceDetailView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Student\ucParentSearchListView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Session\ucSessionListView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Session\ucSessionView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Staff\ucStaffDetailView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Staff\ucStaffListView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucStudentAttendanceDetailView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Student\ucStudentDetailView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Student\ucStudentListView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Subject\ucSubjectDetailView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Subject\ucSubjectListView.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucMarkClassAttendance.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\App.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI_Content.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI_MarkupCompile.cache
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI_MarkupCompile.lref
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\MainWindowContainer.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\CommonControls\RibbonControl.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\MainWindow.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Class\ucSectionListView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucClassResult.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Exam\ucExamsSettingListView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Exam\ucGradeSettingListView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucMarkClassMarksListView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Exams\ucStudentResult.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucClassAttendanceListView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Class\ucClassDetailView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Class\ucClassListView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Finance\Fee\ucClassFee.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Finance\Fee\ucParentFee.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Finance\Fee\ucStudentFee.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Staff\ucEducationDetailView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Staff\ucExperienceDetailView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Student\ucParentSearchListView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Session\ucSessionListView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Session\ucSessionView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Staff\ucStaffDetailView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Staff\ucStaffListView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucStudentAttendanceDetailView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Student\ucStudentDetailView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Student\ucStudentListView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Subject\ucSubjectDetailView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Setting\Subject\ucSubjectListView.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\Setups\Attendance\ucMarkClassAttendance.baml
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.g.resources
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.Properties.Resources.resources
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.csproj.GenerateResource.Cache
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.exe
+E:\New Work\My Products\EducationSystemApp\ES.UI\obj\x86\Debug\ES.UI.pdb
+D:\My Products\EducationSystemApp\ES.UI\bin\Debug\ES.UI.exe.config

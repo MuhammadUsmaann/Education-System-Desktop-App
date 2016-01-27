@@ -1,0 +1,329 @@
+﻿<my:BaseUserControl
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:vw="clr-namespace:ES.UI.Setups"
+            xmlns:my ="clr-namespace:ES.UI"
+            Loaded="UserControl_Loaded"
+            xmlns:ExtendedGridControl="clr-namespace:ExtendedGrid.ExtendedGridControl;assembly=ExtendedGrid"
+            xmlns:ExtendedColumn="clr-namespace:ExtendedGrid.ExtendedColumn;assembly=ExtendedGrid" 
+            xmlns:r="clr-namespace:Wpf.Controls;assembly=Wpf.TabControl"
+            x:Class="ES.UI.Setups.ucStaffDetailView" 
+            mc:Ignorable="d" 
+            d:DesignHeight="500" d:DesignWidth="800"
+            x:Name="StaffDetailUserControl">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <r:TabControl Margin="10" x:Name="tabControl" Grid.Row="0"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="400"
+				TabItemMinWidth="150" TabItemMaxWidth="200"  TabItemMinHeight="40"  TabItemMaxHeight="50" VerticalContentAlignment="Top" TabStripPlacement="Top">
+            <r:TabControl.TabItemNormalBackground>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFFCFDFD" Offset="0"/>
+                    <GradientStop Color="#FFE5EAF5" Offset="0.3"/>
+                    <GradientStop Color="#FFCFD7EB" Offset="0.3"/>
+                    <GradientStop Color="#FFE0E5F5" Offset="0.7"/>
+                    <GradientStop Color="#FFECEEFC" Offset="1"/>
+                </LinearGradientBrush>
+            </r:TabControl.TabItemNormalBackground>
+
+            <r:TabControl.TabItemSelectedBackground>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFFBFDFE" Offset="0"/>
+                    <GradientStop Color="#FFEAF6FB" Offset="0.3"/>
+                    <GradientStop Color="#FFCEE7FA" Offset="0.3"/>
+                    <GradientStop Color="#FFB9D1FA" Offset="1"/>
+                </LinearGradientBrush>
+            </r:TabControl.TabItemSelectedBackground>
+
+            <r:TabControl.TabItemMouseOverBackground>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFFCFDFD" Offset="0"/>
+                    <GradientStop Color="#FFC6DDF7" Offset="0.3"/>
+                    <GradientStop Color="#FF99C6EE" Offset="0.3"/>
+                    <GradientStop Color="#FFB6D6F1" Offset="0.7"/>
+                    <GradientStop Color="#FFD9E9F9" Offset="1"/>
+                </LinearGradientBrush>
+            </r:TabControl.TabItemMouseOverBackground>
+
+            <r:TabItem   Width="350"  Margin="0 5 0 0" MaxWidth="250" MinWidth="250">
+                <r:TabItem.Header>
+                    <TextBlock Text="Personal Info" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap"/>
+                </r:TabItem.Header>
+                <r:TabItem.Content>
+                    <Grid Background="Transparent" Margin="40 20 40 0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                            <RowDefinition Height="40"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1.5*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="1.5*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="First Name : " Grid.Row="0" Grid.Column="0"/>
+                        <TextBox Grid.Row="0" 
+                         Grid.Column="1" 
+                         Height="25" 
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Text="{Binding  Path=UserDetail.FirstName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+
+                        <Label Content="Middle Name : " Grid.Row="1" Grid.Column="0"/>
+                        <TextBox Grid.Row="1" 
+                         Grid.Column="1" 
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Height="25" 
+                         Text="{Binding  Path=UserDetail.MiddleName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+                        <Label Content="Last Name : " Grid.Row="2" Grid.Column="0"/>
+                        <TextBox Grid.Row="2" 
+                         Grid.Column="1" 
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Height="25"
+                         Text="{Binding  Path=UserDetail.LastName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+                        <Label Content="Father Name" Grid.Row="3" Grid.Column="0"/>
+                        <TextBox Grid.Row="3" 
+                         Grid.Column="1" 
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Height="25" 
+                         Text="{Binding  Path=UserDetail.FatherName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+                        <Label Content="Date of Birth" Grid.Row="4" Grid.Column="0"/>
+                        <DatePicker Grid.Row="4" 
+                               Grid.Column="1" 
+                               Height="25"
+                               SelectedDate="{Binding  Path=UserDetail.dob, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                               IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                        <Label Content="Gender " Grid.Row="5" Grid.Column="0"/>
+                        <ComboBox
+                         Grid.Row="5" 
+                         Grid.Column="1" 
+                         Height="25" 
+                           DisplayMemberPath="DisplayName" 
+                        SelectedValuePath="DisplayName" 
+                      
+                        ItemsSource="{Binding  Path=GenderDropDown, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                        SelectedValue="{Binding  Path=UserDetail.Gender, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                        
+                        IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+
+
+                        <Label Content="CNIC Number : " Grid.Row="0" Grid.Column="2"/>
+                        <TextBox Grid.Row="0" 
+                         Grid.Column="3" 
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Height="25" 
+                         Text="{Binding  Path=UserDetail.CNIC, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+                        <Label Content="Contact No# 1: " Grid.Row="1" Grid.Column="2"/>
+                        <TextBox Grid.Row="1" 
+                         Grid.Column="3" 
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Height="25" 
+                         Text="{Binding  Path=UserDetail.ContactNo1, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+
+                        <Label Content="Contact No# 2: " Grid.Row="2" Grid.Column="2"/>
+                        <TextBox Grid.Row="2" 
+                         Grid.Column="3" 
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Height="25" 
+                         Text="{Binding  Path=UserDetail.ContactNo2, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+                        <Label Content="Email ID : " Grid.Row="3" Grid.Column="2"/>
+                        <TextBox Grid.Row="3" 
+                         Grid.Column="3" 
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Height="25" 
+                         Text="{Binding  Path=UserDetail.EmailID, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+                        <Label Content="Salary :" Grid.Row="4" Grid.Column="2"/>
+                        <TextBox Grid.Row="4" 
+                         Grid.Column="3" 
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Height="25" 
+                         Text="{Binding  Path=UserDetail.Salary, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+                        <Label Content="Address : " Grid.Row="5" Grid.Column="2"/>
+                        <TextBox Grid.Row="5" 
+                         Grid.Column="3"
+                         
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Height="25" 
+                         Text="{Binding  Path=UserDetail.Address, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+                        <Label Content="joining Date" Grid.Row="6" Grid.Column="0"/>
+                        <DatePicker Grid.Row="6" 
+                               Grid.Column="1" 
+                               Height="25"
+                               SelectedDate="{Binding  Path=UserDetail.Joining_date, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                               IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                    </Grid>
+                </r:TabItem.Content>
+            </r:TabItem>
+
+            <r:TabItem   Width="350"  Margin="0 5 0 0" MaxWidth="250" MinWidth="250">
+                <r:TabItem.Header>
+                    <TextBlock Text="Educational Info" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap"/>
+                </r:TabItem.Header>
+                <r:TabItem.Content>
+                    <Grid Background="Transparent">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Button Grid.Row="0" HorizontalAlignment="Left" Margin="10 0 0 0" x:Name="btnAddNewEducation" Click="btnAddNewEducation_Click" Content="Add New" Height="40" Width="100" />
+
+                        <ExtendedGridControl:ExtendedDataGrid  x:Name="gvEducationListView" 
+                                                   Grid.Row="1"
+                                                   ItemsSource="{Binding  Path=EducationList, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                                   AutoGenerateColumns="False"
+                                                   Width="Auto"
+                                                               
+                                                   HideColumnChooser="True"
+                                                   ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                                                   ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                                   CanUserAddRows="False" 
+                                                   OnlyTwoWaySorting="True" 
+                                                   SearchAutoFilterVisibility="Collapsed" 
+                                                   AutoFilterFontSize="12"
+                                                   GroupByControlVisibility="Collapsed">
+                            <DataGrid.Columns>
+                                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Institution" AllowAutoFilter="True" Width="*" Binding="{Binding Institution}" />
+                                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Description" AllowAutoFilter="True" Width="*" Binding="{Binding Description}" />
+                                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Passing Year" AllowAutoFilter="True" Width="*" Binding="{Binding PassYear}" />
+                                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Score (CGPA/Percentage)" AllowAutoFilter="True" Width="*" Binding="{Binding score}" />
+                            </DataGrid.Columns>
+                            <DataGrid.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem Header="Edit" Click="btnRowEduEdit_Click" />
+                                    <MenuItem Header="View" Click="btnRowEduDelete_Click" />
+                                </ContextMenu>
+                            </DataGrid.ContextMenu>
+                        </ExtendedGridControl:ExtendedDataGrid>
+                    </Grid>
+                </r:TabItem.Content>
+            </r:TabItem>
+
+            <r:TabItem   Width="350"  Margin="0 5 0 0" MaxWidth="250" MinWidth="250">
+                <r:TabItem.Header>
+                    <TextBlock Text="Experience Info" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap"/>
+                </r:TabItem.Header>
+                <r:TabItem.Content>
+                    <Grid Background="Transparent">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Button HorizontalAlignment="Left" Margin="10 0 0 0" x:Name="btnAddNewExperience" Click="btnAddNewExperience_Click"  Content="Add New" Height="40" Width="100" />
+                        <ExtendedGridControl:ExtendedDataGrid  x:Name="gvStaffExpListView" 
+                                                   Grid.Row="1"
+                                                   ItemsSource="{Binding  Path=ExperienceList, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                                   AutoGenerateColumns="False"
+                                                   HideColumnChooser="True"
+                                                   ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                                                   ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                                   CanUserAddRows="False" 
+                                                   OnlyTwoWaySorting="True" 
+                                                   SearchAutoFilterVisibility="Collapsed" 
+                                                   AutoFilterFontSize="12"
+                                                   GroupByControlVisibility="Collapsed">
+                            <DataGrid.Columns>
+                                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Institution" AllowAutoFilter="True" Width="*" Binding="{Binding Institution}" />
+                                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Description" AllowAutoFilter="True" Width="*" Binding="{Binding Description}" />
+                                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Start Date" AllowAutoFilter="True" Width="*" Binding="{Binding StartDate}" />
+                                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="End Date" AllowAutoFilter="True" Width="*" Binding="{Binding EndDate}" />
+                                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Experience" AllowAutoFilter="True" Width="*" Binding="{Binding TotalExperince}" />
+                            </DataGrid.Columns>
+                            <DataGrid.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem Header="Edit" Click="btnRowExpEdit_Click" />
+                                    <MenuItem Header="View" Click="btnRowExpDelete_Click" />
+                                </ContextMenu>
+                            </DataGrid.ContextMenu>
+                        </ExtendedGridControl:ExtendedDataGrid>
+
+                    </Grid>
+                </r:TabItem.Content>
+            </r:TabItem>
+
+            <r:TabItem   Width="350"  Margin="0 5 0 0" MaxWidth="250" MinWidth="250">
+                <r:TabItem.Header>
+                    <TextBlock Text="Login Setting" TextTrimming="CharacterEllipsis" TextWrapping="NoWrap"/>
+                </r:TabItem.Header>
+                <r:TabItem.Content>
+                    <Grid Background="Transparent">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="20*"/>
+                            <ColumnDefinition Width="60*"/>
+                            <ColumnDefinition Width="20*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="Login Name: "  VerticalAlignment="Center"  Grid.Row="0" Grid.Column="1"/>
+                        <TextBox Grid.Row="1" 
+                         Grid.Column="1" 
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Height="40"
+                             Width="300"
+                             Margin="5 0 0 0"
+                         HorizontalAlignment="Left"
+                         Text="{Binding  Path=User.UserName, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+                        <Label Content="Password : " VerticalAlignment="Center" Grid.Row="2" Grid.Column="1"/>
+                        <TextBox Grid.Row="3" 
+                         Grid.Column="1" 
+                         IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                         Height="40"
+                             Width="300"
+                             Margin="5 0 0 0"
+                             HorizontalAlignment="Left"
+                         Text="{Binding  Path=User.Password, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+                        <Label Content="Role : " VerticalAlignment="Center" Grid.Row="4" Grid.Column="1"/>
+
+                        <ComboBox
+                         Grid.Row="5"
+                         Grid.Column="1"
+                         Height="40"
+                        Width="300"
+                        Margin="5 0 0 0"
+                            DisplayMemberPath="DisplayName" 
+                        SelectedValuePath="DisplayID"
+                        HorizontalAlignment="Left"
+                        SelectedValue="{Binding  Path=User.RoleID, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                        ItemsSource="{Binding  Path=RoleTypeDropDown, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                        IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+                    </Grid>
+                </r:TabItem.Content>
+            </r:TabItem>
+
+        </r:TabControl>
+        
+        <Button Grid.Row="1" Height="50" Width="100" Content="{Binding  Path=SaveButtonContent,Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" x:Name="btnStaffSave" Click="btnStaffSave_Click" HorizontalAlignment="Right" Margin="0 20 40 0"/>
+    </Grid>
+</my:BaseUserControl>

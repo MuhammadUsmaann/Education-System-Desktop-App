@@ -1,0 +1,152 @@
+﻿<Window x:Class="ES.UI.MainWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:controls="clr-namespace:ES.UI.CommonControls" 
+        xmlns:Views="clr-namespace:ES.UI.Setups"
+        Title="MainWindow" 
+        WindowStartupLocation="CenterScreen" 
+        WindowStyle="None" 
+        WindowState="Maximized" 
+        Height="Auto" Width="Auto" 
+        x:Name="MainPage"
+        Icon="ico.ico"
+        SourceInitialized="Window_SourceInitialized" 
+        Loaded="MainPage_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <Grid x:Name="ShellHeader" Grid.Row="0">
+            <Grid.Style>
+                <Style>
+                    <Style.Triggers>
+                        <Trigger Property="UIElement.IsMouseOver" Value="True">
+                            <Setter Property="Panel.ZIndex" Value="1" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Style>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid x:Name="WindowHeader" Height="Auto" Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50*" />
+                    <ColumnDefinition Width="50*" />
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" 
+                            DataContext="{Binding}" 
+                            Margin="5,5,0,5" 
+                            Orientation="Horizontal" 
+                            HorizontalAlignment="Left" 
+                            VerticalAlignment="Stretch">
+
+                    <TextBlock x:Name="WindowTitle" 
+                                FontWeight="Bold" 
+                                IsHitTestVisible="False" 
+                                HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,2,0,0" 
+                                Opacity="0.5" 
+                                >
+                    </TextBlock>
+
+                    <TextBlock Margin="5,0,5,0" 
+                                FontWeight="Bold" 
+                                IsHitTestVisible="False" 
+                                HorizontalAlignment="Left" VerticalAlignment="Center" 
+                                Opacity="0.5" 
+                                Text="|">
+                    </TextBlock>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="UserName" 
+                                    FontSize="10" FontWeight="Bold" 
+                                    HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,2,0,0" 
+                                   > 
+                                    <!--<TextBlock.Text> 
+                                    <Binding Path="UserName" /> 
+                                    </TextBlock.Text>-->
+                        </TextBlock>
+                    </StackPanel>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" 
+                            DataContext="{Binding}" 
+                            Orientation="Horizontal" 
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Center" 
+                            Margin="0,0,5,0">
+
+                    <TextBlock FontSize="10" 
+                               FontWeight="Bold" 
+                               Text="Today Date : " 
+                               HorizontalAlignment="Left" 
+                               VerticalAlignment="Center" 
+                               Margin="0,2,0,0" 
+                               ToolTip="Today Date"/>
+
+                    <TextBlock x:Name="TodayDate" 
+                               FontSize="10" 
+                               FontWeight="Medium" 
+                               Text="10-11-2015" 
+                               HorizontalAlignment="Left" 
+                               VerticalAlignment="Center" 
+                               Margin="0,2,0,0" 
+                               ToolTip="Today Date"/>
+
+                    <TextBlock Margin="5,0,5,0" 
+                               FontSize="12" 
+                               FontWeight="Bold" 
+                               IsHitTestVisible="False" 
+                               HorizontalAlignment="Left" 
+                               VerticalAlignment="Center" 
+                               Opacity="0.5" 
+                               Text="|">
+                    </TextBlock>
+
+                    <Button Style="{StaticResource MetroButtonStyle}" 
+                            VerticalAlignment="Center" 
+                            ToolTip="About Application" 
+                            Margin="0,5,0,0">
+                            <TextBlock FontFamily="Segoe WP" FontSize="10" FontWeight="Bold" Text="About" />
+                    </Button>
+                    <Button Style="{StaticResource MetroButtonStyle}" 
+                            x:Name="MinimizeButton" 
+                            Click="MinimizeButton_Click" 
+                            VerticalAlignment="Center"
+                            Margin="100,1.5,1.5,2.5" 
+                            ToolTip="Minimize">
+                            
+                        <TextBlock TextWrapping="Wrap" Text="0" FontFamily="Webdings" FontSize="13.333" />
+                    </Button>
+
+                    <Button Style="{StaticResource MetroButtonStyle}" 
+                            x:Name="CloseButton" 
+                            Click="CloseButton_Click" 
+                            VerticalAlignment="Center" 
+                            Margin="1.5" 
+                            ToolTip="Close">
+                        <TextBlock TextWrapping="Wrap" Text="r" FontFamily="Webdings" FontSize="13.333"/>
+                    </Button>
+                </StackPanel>
+            </Grid>
+            <Grid x:Name="Ribbon" Grid.Row="1">
+                <controls:RibbonControl x:Name="RibbonControl" Background="#ecf2f9"></controls:RibbonControl>
+            </Grid>
+        </Grid>
+        <ContentControl x:Name="MainContainer" Grid.Row="1" />
+
+    </Grid>
+</Window>
+
+
+
+
+
+
+
+

@@ -1,0 +1,166 @@
+﻿<my:BaseUserControl
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:vw="clr-namespace:ES.UI.Setups"
+            xmlns:my ="clr-namespace:ES.UI"
+            xmlns:ExtendedGridControl="clr-namespace:ExtendedGrid.ExtendedGridControl;assembly=ExtendedGrid"
+            xmlns:ExtendedColumn="clr-namespace:ExtendedGrid.ExtendedColumn;assembly=ExtendedGrid"
+            x:Class="ES.UI.Setups.ucMarkClassMarksListView" 
+            mc:Ignorable="d"
+            d:DesignHeight="200" d:DesignWidth="1160"
+            x:Name="CustomUserControl">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="5" />
+        </Grid.RowDefinitions>
+
+        <Grid Height="Auto" Grid.Row="0" Margin="0,1,0,-1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*" />
+                <ColumnDefinition Width="80*" />
+                <ColumnDefinition Width="5*" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" 
+                        Orientation="Horizontal" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Stretch"
+                        >
+                <RadioButton Content="View"
+                                        Margin="10 -5 0 0"
+                                        IsChecked="True"
+                                        VerticalAlignment="Center"
+                                        x:Name="btnRadioView"
+                                        HorizontalAlignment="Left"
+                                        Click="btnRadioView_Click"/>
+                <RadioButton Content="Mark"
+                                        Margin="10 -5 0 0"
+                                VerticalAlignment="Center"  
+                                x:Name="btnRadioMark"
+                                Click="btnRadioMark_Click"
+                                        HorizontalAlignment="Left"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1" 
+                    DataContext="{Binding}" 
+                    Margin="5,5,0,5" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Stretch">
+
+            <ComboBox
+                        Grid.Column="0" 
+                        Height="25" 
+                    Width="120" 
+                    Margin="10 -5 0 0"
+                    SelectionChanged="cmbExamList_SelectionChanged"
+                    x:Name="cmbExamList"
+                    HorizontalAlignment="Left"
+                    DisplayMemberPath="DisplayName"
+                    SelectedValuePath="DisplayID"
+                    ItemsSource="{Binding  Path=ExamDropDown, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                    SelectedValue="{Binding  Path=SelectedExamID, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                    IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+
+            <ComboBox
+                        Grid.Column="0" 
+                        Height="25" 
+                    Width="120" 
+                    Margin="10 -5 0 0"
+                    SelectionChanged="cmbClassList_SelectionChanged"
+                    x:Name="cmbClassList"
+                    HorizontalAlignment="Left"
+                    DisplayMemberPath="DisplayName"
+                    SelectedValuePath="DisplayID"
+                    ItemsSource="{Binding  Path=ClassDropDown, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                    SelectedValue="{Binding  Path=SelectedClassID, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                    IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                <ComboBox
+                        Grid.Column="0" 
+                        Height="25" 
+                    Width="120" 
+                    Margin="10 -5 0 0"
+                    SelectionChanged="cmbClassList_SelectionChanged"
+                    x:Name="cmbSectionList"
+                    HorizontalAlignment="Left"
+                    DisplayMemberPath="DisplayName"
+                    SelectedValuePath="DisplayID"
+                    ItemsSource="{Binding  Path=SectionDropDown, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                    SelectedValue="{Binding  Path=SelectedSectionID, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                    />
+                
+            <ComboBox
+                        Grid.Column="0" 
+                        Height="25" 
+                    Width="120" 
+                    Margin="10 -5 0 0"
+                    SelectionChanged="cmbSubjectList_SelectionChanged"
+                    x:Name="cmbSubjectList"
+                    HorizontalAlignment="Left"
+                    DisplayMemberPath="DisplayName"
+                    SelectedValuePath="DisplayID"
+                    ItemsSource="{Binding  Path=SubjectDropDown, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                    SelectedValue="{Binding  Path=SelectedSubjectID, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                     />
+
+
+            <TextBox 
+                    Grid.Column="2"
+                    Width="180"
+                    Height="25"
+                    Margin="5 -5 0 0"
+                    Visibility="{Binding  Path=RadioMark, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    Text="{Binding  Path=TotalMarks, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+
+
+            <Button Content=" View "
+                        Margin="5 0 0 0"
+                                    Width="100"
+                                    Visibility="{Binding  Path=RadioView, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                        x:Name="btnViewClassMarks"
+                        Click="btnViewClassMarks_Click"/>
+            <Button Content=" Mark "
+                        Margin="5 0 0 0"
+                                    Visibility="{Binding  Path=RadioMark, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    Width="100"
+                        x:Name="btnMarkClassMarks"
+                        Click="btnMarkClassMarks_Click"/>
+            <Button Content=" Save "
+                        Margin="5 0 0 0"
+                                    Visibility="{Binding  Path=RadioMark, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                    Width="100"
+                        x:Name="btnSaveMarks"
+                        Click="btnSaveMarks_Click"/>
+
+        </StackPanel>
+        </Grid>
+
+
+
+        <ExtendedGridControl:ExtendedDataGrid  x:Name="grid" 
+                                               Grid.Row="1"
+                                               ItemsSource="{Binding  Path=ClassMarkList, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                               AutoGenerateColumns="False" 
+                                               HideColumnChooser="True"
+                                               CanUserAddRows="False" 
+                                               OnlyTwoWaySorting="True" 
+                                               SearchAutoFilterVisibility="Collapsed" 
+                                               AutoFilterFontSize="12"
+                                               GroupByControlVisibility="Collapsed">
+            <DataGrid.Columns>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="Role No#" AllowAutoFilter="False" Width="100"
+                                           Binding="{Binding StudentRoleNumber}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="Student Name" AllowAutoFilter="False" Width="100"
+                                           Binding="{Binding StudentName}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="Marks"
+                                           Binding="{Binding ObtainedMarks}" AllowAutoFilter="True"
+                                           CanUserSort="False" Width="*"/>
+            </DataGrid.Columns>
+        </ExtendedGridControl:ExtendedDataGrid>
+    </Grid>
+</my:BaseUserControl>

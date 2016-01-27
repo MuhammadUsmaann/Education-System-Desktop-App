@@ -1,0 +1,1537 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Orchestra.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Orchestra.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_AllRightsReserved">
+            <summary>
+              Looks up a localized string similar to All rights reserved.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_Assign">
+            <summary>
+              Looks up a localized string similar to Assign.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_AssignInputGestureAreYouSure">
+            <summary>
+              Looks up a localized string similar to Are you sure you want to assign the input gesture to &apos;{0}&apos;. It will be removed from the other commands..
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_AssignInputGestureUsedByFollowCommands">
+            <summary>
+              Looks up a localized string similar to The input gesture &apos;{0}&apos; is currently being used by the following commands:.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_BackupAndReset">
+            <summary>
+              Looks up a localized string similar to Backup and Reset.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_BackupCreated">
+            <summary>
+              Looks up a localized string similar to Backup has been succesfully created..
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_BuiltOn">
+            <summary>
+              Looks up a localized string similar to Built on {0}.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_Close">
+            <summary>
+              Looks up a localized string similar to Close.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_Command">
+            <summary>
+              Looks up a localized string similar to Command.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_Continue">
+            <summary>
+              Looks up a localized string similar to Continue.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_Copy">
+            <summary>
+              Looks up a localized string similar to Copy.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_Customize">
+            <summary>
+              Looks up a localized string similar to Customize.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_DebugLoggingIsEnabled">
+            <summary>
+              Looks up a localized string similar to Debug logging is enabled for this application instance.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_DeletedUserDataSettings">
+            <summary>
+              Looks up a localized string similar to User data settings have been successfully deleted..
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_EnableDetailedLogging">
+            <summary>
+              Looks up a localized string similar to Enable detailed logging.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_EnableLogging">
+            <summary>
+              Looks up a localized string similar to Enable logging.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_FailedToCreateBackup">
+            <summary>
+              Looks up a localized string similar to Failed to created a backup. To prevent data loss, the application will now exit and not delete any files. Please contact support so they can guide you through the process..
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_InputGesture">
+            <summary>
+              Looks up a localized string similar to Input gesture.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_KeyboardShortcuts">
+            <summary>
+              Looks up a localized string similar to Keyboard shortcuts.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_NoLogListenerAvailable">
+            <summary>
+              Looks up a localized string similar to No log listener available that can be opened. Please contact support..
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_NotStartedCorrectly_01">
+            <summary>
+              Looks up a localized string similar to It seems that the application failed to start correctly the last time it was started..
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_NotStartedCorrectly_02">
+            <summary>
+              Looks up a localized string similar to If this happens again, try to reset the user data settings. The left button will allow you to reset (and optionally backup) your settings..
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_NotStartedCorrectly_03">
+            <summary>
+              Looks up a localized string similar to When ready, click continue to start the application..
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_PressShortcutKeys">
+            <summary>
+              Looks up a localized string similar to Press shortcut keys:.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_Print">
+            <summary>
+              Looks up a localized string similar to Print.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_ProducedBy">
+            <summary>
+              Looks up a localized string similar to Produced by {0}.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_ReleasedOn">
+            <summary>
+              Looks up a localized string similar to Released on.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_Remove">
+            <summary>
+              Looks up a localized string similar to Remove.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_ReplaceInputGesture">
+            <summary>
+              Looks up a localized string similar to Replace input gesture?.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_Reset">
+            <summary>
+              Looks up a localized string similar to Reset.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_ResetKeyboardShortcutsAreYouSure">
+            <summary>
+              Looks up a localized string similar to Resetting shortcuts will delete all your current shortcuts. This action cannot be undone. Are you sure you want to reset the shortcuts?.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_RetrievingSystemInfo">
+            <summary>
+              Looks up a localized string similar to Retrieving system information....
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_ShortcutForSelectedCommand">
+            <summary>
+              Looks up a localized string similar to Shortcut for selected command:.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_ShortcutsForApplication">
+            <summary>
+              Looks up a localized string similar to Keyboard shortcuts for {0}.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_ShowCommandsContaining">
+            <summary>
+              Looks up a localized string similar to Show commands containing:.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_ShowLog">
+            <summary>
+              Looks up a localized string similar to Show log....
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_ShowSystemInfo">
+            <summary>
+              Looks up a localized string similar to Show system info.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_SystemInfo">
+            <summary>
+              Looks up a localized string similar to System information.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Orchestra_UserDataSettings">
+            <summary>
+              Looks up a localized string similar to User data settings.
+            </summary>
+        </member>
+        <member name="T:Orchestra.Controls.AnimatingTextBlock">
+            <summary>
+            Animating text block.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Controls.AnimatingTextBlock.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Controls.AnimatingTextBlock"/> class.
+            </summary>
+        </member>
+        <member name="F:Orchestra.Controls.AnimatingTextBlock.TextProperty">
+            <summary>
+            The text property.
+            </summary>
+        </member>
+        <member name="F:Orchestra.Controls.AnimatingTextBlock.HideStoryboardProperty">
+            <summary>
+            The hide storyboard property.
+            </summary>
+        </member>
+        <member name="F:Orchestra.Controls.AnimatingTextBlock.ShowStoryboardProperty">
+            <summary>
+            The show storyboard property.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Controls.AnimatingTextBlock.OnApplyTemplate">
+            <summary>
+            When overridden in a derived class, is invoked whenever application code or internal processes call <see cref="M:System.Windows.FrameworkElement.ApplyTemplate" />.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Controls.AnimatingTextBlock.UpdateStatus(System.String)">
+            <summary>
+            Updates the status.
+            </summary>
+            <param name="status">The status.</param>
+        </member>
+        <member name="P:Orchestra.Controls.AnimatingTextBlock.Text">
+            <summary>
+            Gets or sets the text.
+            </summary>
+            <value>The text.</value>
+        </member>
+        <member name="P:Orchestra.Controls.AnimatingTextBlock.HideStoryboard">
+            <summary>
+            Gets or sets the hide storyboard.
+            </summary>
+            <value>The hide storyboard.</value>
+        </member>
+        <member name="P:Orchestra.Controls.AnimatingTextBlock.ShowStoryboard">
+            <summary>
+            Gets or sets the show storyboard.
+            </summary>
+            <value>The show storyboard.</value>
+        </member>
+        <member name="T:Orchestra.Controls.BusyIndicator">
+            <summary>
+            Interaction logic for BusyIndicator.xaml
+            </summary>
+            <summary>
+            BusyIndicator
+            </summary>
+        </member>
+        <member name="M:Orchestra.Controls.BusyIndicator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Controls.BusyIndicator"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Controls.BusyIndicator.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WPFSpark.FluidProgressBar">
+            <summary>
+            Interaction logic for FluidProgressBar.xaml
+            </summary>
+            <summary>
+            FluidProgressBar
+            </summary>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.DelayProperty">
+            <summary>
+            Delay Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDelayChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the Delay property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDelayChanged(System.Windows.Duration,System.Windows.Duration)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the Delay property.
+            </summary>
+            <param name="oldDelay">Old Value</param>
+            <param name="newDelay">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.DotWidthProperty">
+            <summary>
+            DotWidth Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDotWidthChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the DotWidth property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDotWidthChanged(System.Double,System.Double)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the DotWidth property.
+            </summary>
+            <param name="oldDotWidth">Old Value</param>
+            <param name="newDotWidth">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.DotHeightProperty">
+            <summary>
+            DotHeight Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDotHeightChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the DotHeight property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDotHeightChanged(System.Double,System.Double)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the DotHeight property.
+            </summary>
+            <param name="oldDotHeight">Old Value</param>
+            <param name="newDotHeight">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.DotRadiusXProperty">
+            <summary>
+            DotRadiusX Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDotRadiusXChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the DotRadiusX property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDotRadiusXChanged(System.Double,System.Double)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the DotRadiusX property.
+            </summary>
+            <param name="oldDotRadiusX">Old Value</param>
+            <param name="newDotRadiusX">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.DotRadiusYProperty">
+            <summary>
+            DotRadiusY Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDotRadiusYChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the DotRadiusY property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDotRadiusYChanged(System.Double,System.Double)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the DotRadiusY property.
+            </summary>
+            <param name="oldDotRadiusY">Old Value</param>
+            <param name="newDotRadiusY">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.DurationAProperty">
+            <summary>
+            DurationA Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDurationAChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the DurationA property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDurationAChanged(System.Windows.Duration,System.Windows.Duration)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the DurationA property.
+            </summary>
+            <param name="oldDurationA">Old Value</param>
+            <param name="newDurationA">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.DurationBProperty">
+            <summary>
+            DurationB Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDurationBChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the DurationB property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDurationBChanged(System.Windows.Duration,System.Windows.Duration)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the DurationB property.
+            </summary>
+            <param name="oldDurationB">Old Value</param>
+            <param name="newDurationB">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.DurationCProperty">
+            <summary>
+            DurationC Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDurationCChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the DurationC property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnDurationCChanged(System.Windows.Duration,System.Windows.Duration)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the DurationC property.
+            </summary>
+            <param name="oldDurationC">Old Value</param>
+            <param name="newDurationC">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.KeyFrameAProperty">
+            <summary>
+            KeyFrameA Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnKeyFrameAChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the KeyFrameA property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnKeyFrameAChanged(System.Double,System.Double)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the KeyFrameA property.
+            </summary>
+            <param name="oldKeyFrameA">Old Value</param>
+            <param name="newKeyFrameA">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.KeyFrameBProperty">
+            <summary>
+            KeyFrameB Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnKeyFrameBChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the KeyFrameB property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnKeyFrameBChanged(System.Double,System.Double)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the KeyFrameB property.
+            </summary>
+            <param name="oldKeyFrameB">Old Value</param>
+            <param name="newKeyFrameB">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.OscillateProperty">
+            <summary>
+            Oscillate Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnOscillateChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the Oscillate property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnOscillateChanged(System.Boolean,System.Boolean)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the Oscillate property.
+            </summary>
+            <param name="oldOscillate">Old Value</param>
+            <param name="newOscillate">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.ReverseDurationProperty">
+            <summary>
+            ReverseDuration Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnReverseDurationChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the ReverseDuration property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnReverseDurationChanged(System.Windows.Duration,System.Windows.Duration)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the ReverseDuration property.
+            </summary>
+            <param name="oldReverseDuration">Old Value</param>
+            <param name="newReverseDuration">New Value</param>
+        </member>
+        <member name="F:WPFSpark.FluidProgressBar.TotalDurationProperty">
+            <summary>
+            TotalDuration Dependency Property
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnTotalDurationChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles changes to the TotalDuration property.
+            </summary>
+            <param name="d">FluidProgressBar</param>
+            <param name="e">DependencyProperty changed event arguments</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnTotalDurationChanged(System.Windows.Duration,System.Windows.Duration)">
+            <summary>
+            Provides derived classes an opportunity to handle changes to the TotalDuration property.
+            </summary>
+            <param name="oldTotalDuration">Old Value</param>
+            <param name="newTotalDuration">New Value</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.#ctor">
+            <summary>
+            Ctor
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnLoaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Loaded event
+            </summary>
+            <param name="sender">Sender</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnSizeChanged(System.Object,System.Windows.SizeChangedEventArgs)">
+            <summary>
+            Handles the SizeChanged event
+            </summary>
+            <param name="sender">Sender</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.OnIsVisibleChanged(System.Object,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles the IsVisibleChanged event
+            </summary>
+            <param name="sender">Sender</param>
+            <param name="e">EventArgs</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.StartFluidAnimation">
+            <summary>
+            Starts the animation
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.StopFluidAnimation">
+            <summary>
+            Stops the animation
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.RestartStoryboardAnimation">
+            <summary>
+            Stops the animation, updates the keyframes and starts the animation
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.GetKeyFramesFromStoryboard">
+            <summary>
+            Obtains the keyframes for each animation in the storyboard so that
+            they can be updated when required.
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.ProcessDoubleAnimationWithKeys(System.Windows.Media.Animation.DoubleAnimationUsingKeyFrames,System.Boolean)">
+            <summary>
+            Gets the keyframes in the given animation and stores them in a map
+            </summary>
+            <param name="dakeys">Animation containg keyframes</param>
+            <param name="isOpacityAnim">Flag to indicate whether the animation targets the opacity or the translate transform</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.UpdateKeyFrames">
+            <summary>
+            Update the key value of each keyframe based on the current width of the FluidProgressBar
+            </summary>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.UpdateKeyFrame(System.Int32,System.Double)">
+            <summary>
+            Update the key value of the keyframes stored in the map
+            </summary>
+            <param name="key">Key of the dictionary</param>
+            <param name="newValue">New value to be given to the key value of the keyframes</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.UpdateKeyTimes(System.Int32,System.Windows.Duration)">
+            <summary>
+            Updates the duration of each of the keyframes stored in the map
+            </summary>
+            <param name="key">Key of the dictionary</param>
+            <param name="newDuration">The new duration.</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.UpdateKeyTime(System.Int32,System.Windows.Duration)">
+            <summary>
+            Updates the duration of each of the keyframes stored in the map
+            </summary>
+            <param name="key">Key of the dictionary</param>
+            <param name="newDuration">New value to be given to the duration value of the keyframes</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.UpdateOpacityKeyTime(System.Int32,System.Windows.Duration)">
+            <summary>
+            Updates the duration of the second keyframe of all the opacity animations
+            </summary>
+            <param name="key">Key of the dictionary</param>
+            <param name="newDuration">New value to be given to the duration value of the keyframes</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.UpdateTimelineDelay(System.Windows.Duration)">
+            <summary>
+            Updates the delay between consecutive timelines
+            </summary>
+            <param name="newDelay">Delay duration</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.Dispose">
+            <summary>
+            Releases all resources used by an instance of the FluidProgressBar class.
+            </summary>
+            <remarks>
+            This method calls the virtual Dispose(bool) method, passing in 'true', and then suppresses 
+            finalization of the instance.
+            </remarks>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.Finalize">
+            <summary>
+            Releases unmanaged resources before an instance of the FluidProgressBar class is reclaimed by garbage collection.
+            </summary>
+            <remarks>
+            NOTE: Leave out the finalizer altogether if this class doesn't own unmanaged resources itself, 
+            but leave the other methods exactly as they are.
+            This method releases unmanaged resources by calling the virtual Dispose(bool), passing in 'false'.
+            </remarks>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.Dispose(System.Boolean)">
+            <summary>
+            Releases the unmanaged resources used by an instance of the FluidProgressBar class and optionally releases the managed resources.
+            </summary>
+            <param name="disposing">'true' to release both managed and unmanaged resources; 'false' to release only unmanaged resources.</param>
+        </member>
+        <member name="M:WPFSpark.FluidProgressBar.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.Delay">
+            <summary>
+            Gets or sets the Delay property. This dependency property 
+            indicates the delay between adjacent animation timelines.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.DotWidth">
+            <summary>
+            Gets or sets the DotWidth property. This dependency property 
+            indicates the width of each of the dots.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.DotHeight">
+            <summary>
+            Gets or sets the DotHeight property. This dependency property 
+            indicates the height of each of the dots.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.DotRadiusX">
+            <summary>
+            Gets or sets the DotRadiusX property. This dependency property 
+            indicates the corner radius width of each of the dot.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.DotRadiusY">
+            <summary>
+            Gets or sets the DotRadiusY property. This dependency property 
+            indicates the corner height of each of the dots.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.DurationA">
+            <summary>
+            Gets or sets the DurationA property. This dependency property 
+            indicates the duration of the animation from the start point till KeyFrameA.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.DurationB">
+            <summary>
+            Gets or sets the DurationB property. This dependency property 
+            indicates the duration of the animation from the KeyFrameA till KeyFrameB.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.DurationC">
+            <summary>
+            Gets or sets the DurationC property. This dependency property 
+            indicates the duration of the animation from KeyFrameB till the end point.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.KeyFrameA">
+            <summary>
+            Gets or sets the KeyFrameA property. This dependency property 
+            indicates the first KeyFrame position after the initial keyframe.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.KeyFrameB">
+            <summary>
+            Gets or sets the KeyFrameB property. This dependency property 
+            indicates the second KeyFrame position after the initial keyframe.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.Oscillate">
+            <summary>
+            Gets or sets the Oscillate property. This dependency property 
+            indicates whether the animation should oscillate.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.ReverseDuration">
+            <summary>
+            Gets or sets the ReverseDuration property. This dependency property 
+            indicates the duration of the total animation in reverse.
+            </summary>
+        </member>
+        <member name="P:WPFSpark.FluidProgressBar.TotalDuration">
+            <summary>
+            Gets or sets the TotalDuration property. This dependency property 
+            indicates the duration of the complete animation.
+            </summary>
+        </member>
+        <member name="T:Orchestra.Controls.KeyboardMappingControl">
+            <summary>
+            Interaction logic for KeyboardMappingControl.xaml
+            </summary>
+            <summary>
+            KeyboardMappingControl
+            </summary>
+        </member>
+        <member name="M:Orchestra.Controls.KeyboardMappingControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orchestra.Converters.CommandNameToStringConverter">
+            <summary>
+            Converts a command name to a string.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Converters.CommandNameToStringConverter.Convert(System.Object,System.Type,System.Object)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <returns>The value to be passed to the target dependency property.</returns>
+        </member>
+        <member name="T:Orchestra.Converters.KeyboardMappingToStringConverter">
+            <summary>
+            Converts an keyboard mapping to a string.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Converters.KeyboardMappingToStringConverter.Convert(System.Object,System.Type,System.Object)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <returns>The value to be passed to the target dependency property.</returns>
+        </member>
+        <member name="T:Orchestra.Converters.InputGestureToStringConverter">
+            <summary>
+            Converts an input gesture to a string.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Converters.InputGestureToStringConverter.Convert(System.Object,System.Type,System.Object)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <returns>The value to be passed to the target dependency property.</returns>
+        </member>
+        <member name="T:Orchestra.Converters.PathToStringConverter">
+            <summary>
+            Converts a path to a string.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Converters.PathToStringConverter.Convert(System.String,System.Type,System.Object)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type" /> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <returns>The value to be passed to the target dependency property.</returns>
+        </member>
+        <member name="T:Orchestra.OrchestraException">
+            <summary>
+            Custom exception in Orchestra.
+            </summary>
+        </member>
+        <member name="M:Orchestra.OrchestraException.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.OrchestraException"/> class with a specified error message.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+        </member>
+        <member name="M:Orchestra.OrchestraException.#ctor(System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.OrchestraException"/> class with a specified error message and a reference to the inner exception that is the cause of this exception.
+            </summary>
+            <param name="message">The error message that explains the reason for the exception.</param>
+            <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
+        </member>
+        <member name="T:Orchestra.StringExtensions">
+            <summary>
+            Extension methods for strings.
+            </summary>
+        </member>
+        <member name="M:Orchestra.StringExtensions.GetCommandGroup(System.String)">
+            <summary>
+            Gets the command group from the command name.
+            </summary>
+            <param name="commandName">Name of the command.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:Orchestra.StringExtensions.GetCommandName(System.String)">
+            <summary>
+            Gets the name of the command from the command name.
+            </summary>
+            <param name="commandName">Name of the command.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:Orchestra.StringExtensions.SplitCamelCaseString(System.String)">
+            <summary>
+            Converts the value from a camel case string to a splitted string. For example, <c>ThisTest</c> will be
+            converted to <c>this test</c>.
+            </summary>
+            <param name="input">The input.</param>
+            <returns>The splitted string.</returns>
+        </member>
+        <member name="M:Orchestra.StringExtensions.EqualsIgnoreCase(System.String,System.String)">
+            <summary>
+            Executes a string comparison that is case insensitive.
+            </summary>
+            <param name="str">The string.</param>
+            <param name="valueToCheck">The value to check.</param>
+            <returns><c>true</c> if the strings are equal, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="T:Orchestra.AssemblyHelper">
+            <summary>
+            Assembly helper class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.AssemblyHelper.GetEntryAssembly">
+            <summary>
+            Gets the entry assembly.
+            </summary>
+            <returns>Assembly.</returns>
+        </member>
+        <member name="T:Orchestra.DotNetPatchHelper">
+            <summary>
+            Class that makes sure to inform the user if a bug occurs due to a missing .net patch.
+            </summary>
+        </member>
+        <member name="M:Orchestra.DotNetPatchHelper.Initialize">
+            <summary>
+            Initializes the patch helper.
+            </summary>
+        </member>
+        <member name="M:Orchestra.IconHelper.IconExtractor.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the IconExtractor class from the specified file name.
+            </summary>
+            <param name="fileName">The file to extract icons from.</param>
+        </member>
+        <member name="M:Orchestra.IconHelper.IconExtractor.GetIcon(System.Int32)">
+            <summary>
+            Extracts an icon from the file.
+            </summary>
+            <param name="index">Zero based index of the icon to be extracted.</param>
+            <returns>A System.Drawing.Icon object.</returns>
+            <remarks>Always returns new copy of the Icon. It should be disposed by the user.</remarks>
+        </member>
+        <member name="M:Orchestra.IconHelper.IconExtractor.GetAllIcons">
+            <summary>
+            Extracts all the icons from the file.
+            </summary>
+            <returns>An array of System.Drawing.Icon objects.</returns>
+            <remarks>Always returns new copies of the Icons. They should be disposed by the user.</remarks>
+        </member>
+        <member name="P:Orchestra.IconHelper.IconExtractor.FileName">
+            <summary>
+            Gets the full path of the associated file.
+            </summary>
+        </member>
+        <member name="P:Orchestra.IconHelper.IconExtractor.Count">
+            <summary>
+            Gets the count of the icons in the associated file.
+            </summary>
+        </member>
+        <member name="T:Orchestra.LogHelper">
+            <summary>
+            Helper class for logging.
+            </summary>
+        </member>
+        <member name="M:Orchestra.LogHelper.AddFileLogListener">
+            <summary>
+            Adds a file log listener.
+            </summary>
+        </member>
+        <member name="M:Orchestra.LogHelper.AddLogListenerForUnhandledException(System.Exception)">
+            <summary>
+            Adds a file log listener for an unhandled exception.
+            </summary>
+            <param name="ex">The unhandled exception.</param>
+        </member>
+        <member name="F:Orchestra.ThemeHelper.Log">
+            <summary>
+            The log.
+            </summary>
+        </member>
+        <member name="M:Orchestra.ThemeHelper.CreateAccentColorResourceDictionary(System.Windows.Media.Color)">
+            <summary>
+            Creates the accent color resource dictionary and automatically adds it to the application resources.
+            </summary>
+            <returns>ResourceDictionary.</returns>
+        </member>
+        <member name="M:Orchestra.ThemeHelper.EnsureApplicationThemes(System.Reflection.Assembly,System.Boolean)">
+            <summary>
+            Ensures the application themes by using the assembly and the <c>/Themes/Generic.xaml</c>.
+            </summary>
+            <param name="assembly">The assembly.</param>
+            <param name="createStyleForwarders">if set to <c>true</c>, style forwarders will be created.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="assembly"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Orchestra.ThemeHelper.EnsureApplicationThemes(System.String,System.Boolean)">
+            <summary>
+            Ensures the application themes.
+            </summary>
+            <param name="resourceDictionaryUri">The resource dictionary.</param>
+            <param name="createStyleForwarders">if set to <c>true</c>, style forwarders will be created.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="resourceDictionaryUri"/> is <c>null</c> or whitespace.</exception>
+        </member>
+        <member name="M:Orchestra.ThemeHelper.EnsureOrchestraTheme(System.Boolean)">
+            <summary>
+            Ensures the orchestra theme.
+            </summary>
+            <param name="createStyleForwarders">if set to <c>true</c>, create style forwarders.</param>
+        </member>
+        <member name="M:Orchestra.VersionHelper.GetCurrentVersion(System.Reflection.Assembly)">
+            <summary>
+            Gets the current version of the specified assembly.
+            </summary>
+            <param name="assembly">The assembly. If <c>null</c>, <see cref="M:Orchestra.AssemblyHelper.GetEntryAssembly"/> will be used.</param>
+            <returns>System.String.</returns>
+        </member>
+        <member name="T:Orchestra.Logging.StatusLogListener">
+            <summary>
+            Status log listener.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Logging.StatusLogListener.#ctor(Orchestra.Services.IStatusService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Logging.StatusLogListener"/> class.
+            </summary>
+            <param name="statusService">The status service.</param>
+        </member>
+        <member name="T:Orchestra.Markup.CanvasViewbox">
+            <summary>
+            Markup extension that can show a canvas inside a viewbox.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Markup.CanvasViewbox.Foreground">
+            <summary>
+            Gets or sets the foreground. If the foreground is <see cref="P:System.Windows.Media.Brushes.Transparent"/> (default value), it will
+            respect the colors of the canvas.
+            <para/>
+            If this property has a different value, this markup extension will overwrite all the fill colors
+            of the canvas paths.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Markup.CanvasViewbox.PathName">
+            <summary>
+            Gets or sets the name of the canvas as it can be found in the application resources.
+            </summary>
+        </member>
+        <member name="T:Orchestra.Markup.FontImage">
+            <summary>
+            Markup extension that can show a font as image.
+            </summary>
+            <remarks>
+            Original idea comes from http://www.codeproject.com/Tips/634540/Using-Font-Icons
+            </remarks>
+        </member>
+        <member name="M:Orchestra.Markup.FontImage.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Markup.FontImage"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Markup.FontImage.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Markup.FontImage"/> class.
+            </summary>
+            <param name="itemName">Name of the resource.</param>
+        </member>
+        <member name="M:Orchestra.Markup.FontImage.ProvideDynamicValue">
+            <summary>
+            When implemented in a derived class, returns an object that is provided as the value of the target property for this markup extension.
+            </summary>
+            <returns>The object value to set on the property where the extension is applied.</returns>
+        </member>
+        <member name="P:Orchestra.Markup.FontImage.DefaultFontFamily">
+            <summary>
+            Gets or sets the default name of the font.
+            </summary>
+            <value>The default name of the font.</value>
+        </member>
+        <member name="P:Orchestra.Markup.FontImage.DefaultBrush">
+            <summary>
+            Gets or sets the default brush.
+            </summary>
+            <value>The default brush.</value>
+        </member>
+        <member name="P:Orchestra.Markup.FontImage.FontFamily">
+            <summary>
+            Gets the font family.
+            </summary>
+            <value>The font family.</value>
+        </member>
+        <member name="P:Orchestra.Markup.FontImage.Brush">
+            <summary>
+            Gets or sets the brush.
+            </summary>
+            <value>The brush.</value>
+        </member>
+        <member name="P:Orchestra.Markup.FontImage.ItemName">
+            <summary>
+            Gets or sets the font item name.
+            </summary>
+            <value>The font item name.</value>
+        </member>
+        <member name="T:MethodTimeLogger">
+            <summary>
+            Note: do not rename this class or put it inside a namespace.
+            </summary>
+        </member>
+        <member name="M:MethodTimeLogger.Log(System.Reflection.MethodBase,System.Int64)">
+            <summary>
+            Used by MethodTimer.
+            </summary>
+            <param name="methodBase"></param>
+            <param name="milliseconds"></param>
+        </member>
+        <member name="M:MethodTimeLogger.Log(System.Type,System.String,System.Int64)">
+            <summary>
+            Used by custom code.
+            </summary>
+            <param name="type"></param>
+            <param name="methodName"></param>
+            <param name="milliseconds"></param>
+        </member>
+        <member name="M:Orchestra.Models.AboutInfo.#ctor(System.Uri,System.String,Orchestra.Models.UriInfo,System.Reflection.Assembly,System.Uri)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Models.AboutInfo"/> class.
+            </summary>
+            <param name="companyLogoForSplashScreenUri"></param>
+            <param name="companyLogoUri">The company logo image Uri.</param>
+            <param name="logoImageSource">The logo image source.</param>
+            <param name="uriInfo">The uri info. Can be <c>null</c>.</param>
+            <param name="assembly">The assembly to use for the information. If <c>null</c>, the assembly will be determined automatically.</param>
+        </member>
+        <member name="P:Orchestra.Models.AboutInfo.CompanyLogoForSplashScreenUri">
+            <summary>
+            Gets the logo image source.
+            </summary>
+            <value>The company logo image Uri.</value>
+        </member>
+        <member name="P:Orchestra.Models.AboutInfo.CompanyLogoUri">
+            <summary>
+            Gets the logo image source.
+            </summary>
+            <value>The company logo image Uri.</value>
+        </member>
+        <member name="P:Orchestra.Models.AboutInfo.LogoImageSource">
+            <summary>
+            Gets the logo image source.
+            </summary>
+            <value>The logo image source.</value>
+        </member>
+        <member name="P:Orchestra.Models.AboutInfo.UriInfo">
+            <summary>
+            Gets the uri info.
+            </summary>
+            <value>The uri info.</value>
+        </member>
+        <member name="P:Orchestra.Models.AboutInfo.Assembly">
+            <summary>
+            Gets the assembly.
+            </summary>
+            <value>The assembly.</value>
+        </member>
+        <member name="P:Orchestra.Models.AboutInfo.ShowLogButton">
+            <summary>
+            Gets or sets a value indicating whether the about should show a log button.
+            </summary>
+            <value><c>true</c> if the log button should be shown; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:ModuleInitializer">
+            <summary>
+            Used by the ModuleInit. All code inside the Initialize method is ran as soon as the assembly is loaded.
+            </summary>
+        </member>
+        <member name="M:ModuleInitializer.Initialize">
+            <summary>
+            Initializes the module.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Services.IAboutInfoService.GetAboutInfo">
+            <summary>
+            Returns the about info. If <c>null</c>, the shell will not show the about window.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Orchestra.Services.IRecentlyUsedItemsService.AddItem(Orchestra.Models.RecentlyUsedItem)">
+            <summary>
+            Adds the item to the list of recently used items.
+            </summary>
+            <param name="item">The item.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="item"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Orchestra.Services.IRecentlyUsedItemsService.PinItem(System.String)">
+            <summary>
+            Pins the item with the specified name.
+            </summary>
+            <param name="name">The name.</param>
+            <exception cref="T:System.ArgumentException">The <paramref name="name"/> is <c>null</c> or whitespace.</exception>
+        </member>
+        <member name="M:Orchestra.Services.IRecentlyUsedItemsService.UnpinItem(System.String)">
+            <summary>
+            Unpins the item with the specified name.
+            </summary>
+            <param name="name">The name.</param>
+            <exception cref="T:System.ArgumentException">The <paramref name="name"/> is <c>null</c> or whitespace.</exception>
+        </member>
+        <member name="M:Orchestra.Services.IRecentlyUsedItemsService.RemoveItem(Orchestra.Models.RecentlyUsedItem)">
+            <summary>
+            Removes the item from the list of recently used items.
+            </summary>
+            <param name="item">The item.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="item"/> is <c>null</c>.</exception>
+        </member>
+        <member name="P:Orchestra.Services.IRecentlyUsedItemsService.MaximumItemCount">
+            <summary>
+            Gets or sets the maximum item count.
+            <para />
+            The default value is <c>10</c>.
+            </summary>
+            <value>The maximum item count.</value>
+        </member>
+        <member name="P:Orchestra.Services.IRecentlyUsedItemsService.Items">
+            <summary>
+            Gets the recently used items.
+            </summary>
+            <value>The items.</value>
+        </member>
+        <member name="P:Orchestra.Services.IRecentlyUsedItemsService.PinnedItems">
+            <summary>
+            Gets the pinned items.
+            </summary>
+            <value>The items.</value>
+        </member>
+        <member name="E:Orchestra.Services.IRecentlyUsedItemsService.Updated">
+            <summary>
+            Occurs when the <see cref="P:Orchestra.Services.RecentlyUsedItemsService.Items"/> property has been updated.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Services.ISplashScreenService.CreateSplashScreen">
+            <summary>
+            Creates the splash screen.
+            </summary>
+            <returns>The window.</returns>
+        </member>
+        <member name="M:Orchestra.Services.RecentlyUsedItemsService.AddItem(Orchestra.Models.RecentlyUsedItem)">
+            <summary>
+            Adds the item to the list of recently used items.
+            </summary>
+            <param name="item">The item.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="item"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Orchestra.Services.RecentlyUsedItemsService.RemoveItem(Orchestra.Models.RecentlyUsedItem)">
+            <summary>
+            Removes the item from the list of recently used items.
+            </summary>
+            <param name="item">The item.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="item"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Orchestra.Services.RecentlyUsedItemsService.PinItem(System.String)">
+            <summary>
+            Pins the item with the specified name.
+            </summary>
+            <param name="name">The name.</param>
+            <exception cref="T:System.ArgumentException">The <paramref name="name"/> is <c>null</c> or whitespace.</exception>
+        </member>
+        <member name="M:Orchestra.Services.RecentlyUsedItemsService.UnpinItem(System.String)">
+            <summary>
+            Unpins the item with the specified name.
+            </summary>
+            <param name="name">The name.</param>
+            <exception cref="T:System.ArgumentException">The <paramref name="name"/> is <c>null</c> or whitespace.</exception>
+        </member>
+        <member name="P:Orchestra.Services.RecentlyUsedItemsService.MaximumItemCount">
+            <summary>
+            Gets or sets the maximum item count.
+            <para />
+            The default value is <c>10</c>.
+            </summary>
+            <value>The maximum item count.</value>
+        </member>
+        <member name="P:Orchestra.Services.RecentlyUsedItemsService.Items">
+            <summary>
+            Gets the recently used items.
+            </summary>
+            <value>The items.</value>
+        </member>
+        <member name="P:Orchestra.Services.RecentlyUsedItemsService.PinnedItems">
+            <summary>
+            Gets the pinned items.
+            </summary>
+            <value>The items.</value>
+        </member>
+        <member name="E:Orchestra.Services.RecentlyUsedItemsService.Updated">
+            <summary>
+            Occurs when the <see cref="P:Orchestra.Services.RecentlyUsedItemsService.Items"/> property has been updated.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Services.SplashScreenService.CreateSplashScreen">
+            <summary>
+            Creates the splash screen.
+            </summary>
+            <returns>The window.</returns>
+        </member>
+        <member name="T:Orchestra.ViewModels.KeyboardMappingsOverviewViewModel">
+            <summary>
+            View model for keyboard mappings overview.
+            </summary>
+        </member>
+        <member name="M:Orchestra.ViewModels.KeyboardMappingsOverviewViewModel.OnPrintExecute">
+            <summary>
+            Method to invoke when the Print command is executed.
+            </summary>
+        </member>
+        <member name="M:Orchestra.ViewModels.KeyboardMappingsOverviewViewModel.OnCustomizeExecuteAsync">
+            <summary>
+            Method to invoke when the Customize command is executed.
+            </summary>
+        </member>
+        <member name="P:Orchestra.ViewModels.KeyboardMappingsOverviewViewModel.KeyboardMappings">
+            <summary>
+            Gets the keyboard mappings.
+            </summary>
+            <value>The keyboard mappings.</value>
+        </member>
+        <member name="P:Orchestra.ViewModels.KeyboardMappingsOverviewViewModel.Print">
+            <summary>
+            Gets the Print command.
+            </summary>
+        </member>
+        <member name="P:Orchestra.ViewModels.KeyboardMappingsOverviewViewModel.Customize">
+            <summary>
+            Gets the Customize command.
+            </summary>
+        </member>
+        <member name="T:Orchestra.ViewModels.SplashScreenViewModel">
+            <summary>
+            The splash screen view model.
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.AboutWindow">
+            <summary>
+            Interaction logic for AboutWindow.xaml.
+            </summary>
+            <summary>
+            AboutWindow
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.AboutWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.AboutWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.AboutWindow.#ctor(Orchestra.ViewModels.AboutViewModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.AboutWindow"/> class.
+            </summary>
+            <param name="viewModel">The view model to inject.</param>
+            <remarks>
+            This constructor can be used to use view-model injection.
+            </remarks>
+        </member>
+        <member name="M:Orchestra.Views.AboutWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.CrashWarningWindow">
+            <summary>
+            CrashWarningWindow
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.CrashWarningWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.KeyboardMappingsCustomizationView">
+            <summary>
+            Interaction logic for KeyboardMappingsView.xaml.
+            </summary>
+            <summary>
+            KeyboardMappingsCustomizationView
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.KeyboardMappingsCustomizationView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.KeyboardMappingsCustomizationView"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.KeyboardMappingsCustomizationView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.KeyboardMappingsCustomizationWindow">
+            <summary>
+            Interaction logic for KeyboardMappingsWindow.xaml.
+            </summary>
+            <summary>
+            KeyboardMappingsCustomizationWindow
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.KeyboardMappingsCustomizationWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.KeyboardMappingsCustomizationWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.KeyboardMappingsCustomizationWindow.#ctor(Orchestra.ViewModels.KeyboardMappingsCustomizationViewModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.KeyboardMappingsCustomizationWindow"/> class.
+            </summary>
+            <param name="viewModel">The view model to inject.</param>
+            <remarks>
+            This constructor can be used to use view-model injection.
+            </remarks>
+        </member>
+        <member name="M:Orchestra.Views.KeyboardMappingsCustomizationWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.KeyboardMappingsOverviewView">
+            <summary>
+            Interaction logic for KeyboardMappingsOverviewView.xaml.
+            </summary>
+            <summary>
+            KeyboardMappingsOverviewView
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.KeyboardMappingsOverviewView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.KeyboardMappingsOverviewView"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.KeyboardMappingsOverviewView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.KeyboardMappingsOverviewWindow">
+            <summary>
+            Interaction logic for KeyboardMappingsOverviewWindow.xaml.
+            </summary>
+            <summary>
+            KeyboardMappingsOverviewWindow
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.KeyboardMappingsOverviewWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.KeyboardMappingsOverviewWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.KeyboardMappingsOverviewWindow.#ctor(Orchestra.ViewModels.KeyboardMappingsOverviewViewModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.KeyboardMappingsOverviewWindow"/> class.
+            </summary>
+            <param name="viewModel">The view model to inject.</param>
+            <remarks>
+            This constructor can be used to use view-model injection.
+            </remarks>
+        </member>
+        <member name="M:Orchestra.Views.KeyboardMappingsOverviewWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.MessageBoxWindow">
+            <summary>
+            MessageBoxWindow
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.MessageBoxWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.SplashScreen">
+            <summary>
+            Interaction logic for SplashScreen.xaml
+            </summary>
+            <summary>
+            SplashScreen
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.SplashScreen.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.SplashScreen"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.SplashScreen.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.SystemInfoWindow">
+            <summary>
+            Interaction logic for SystemInfoWindow.xaml.
+            </summary>
+            <summary>
+            SystemInfoWindow
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.SystemInfoWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.SystemInfoWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.SystemInfoWindow.#ctor(Orchestra.ViewModels.SystemInfoViewModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.SystemInfoWindow"/> class.
+            </summary>
+            <param name="viewModel">The view model to inject.</param>
+            <remarks>
+            This constructor can be used to use view-model injection.
+            </remarks>
+        </member>
+        <member name="M:Orchestra.Views.SystemInfoWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orchestra.Windows.WindowExtensions">
+            <summary>
+            Window extensions class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.WindowExtensions.ApplyApplicationIcon(System.Windows.Window)">
+            <summary>
+            Applies the application icon to the specified window.
+            </summary>
+            <param name="window">The window.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="window"/> is <c>null</c>.</exception>
+        </member>
+        <member name="T:Orchestra.Windows.FixMaximize">
+            <summary>
+            Attachable properties to fix the maximized state of a window.
+            <para />
+            The code comes from http://connect.microsoft.com/VisualStudio/feedback/details/775972/wpf-ribbon-window-the-border-is-too-thin.
+            </summary>
+        </member>
+        <member name="T:Orchestra.Windows.Taskbar">
+            <summary>
+            Class Taskbar. This class cannot be inherited.
+            </summary>
+            <remarks>
+            This code comes from http://winsharp93.wordpress.com/2009/06/29/find-out-size-and-position-of-the-taskbar/.
+            </remarks>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,2200 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Orc.Controls</name>
+    </assembly>
+    <members>
+        <member name="T:Orc.Controls.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.Properties.Resources.BrowseForFile">
+            <summary>
+              Looks up a localized string similar to Browse for file.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.Properties.Resources.BrowseForFolder">
+            <summary>
+              Looks up a localized string similar to Browse for folder.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.Properties.Resources.OpenFolder">
+            <summary>
+              Looks up a localized string similar to Open folder.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.AnimatedGif">
+            <summary>
+            User control supporting animated gif.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.AnimatedGif.GifSourceProperty">
+            <summary>
+            DependencyProperty definition as the backing store for GifSource.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.AnimatedGif.OnGifSourceChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked when the GifSource dependency property has changed.
+            </summary>
+            <param name="sender">The object that contains the dependency property.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="M:Orc.Controls.AnimatedGif.SetImageGifSource">
+            <summary>
+            Sets the image gif source.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.AnimatedGif.GetBitmapResourceFromAssembly(System.Reflection.Assembly)">
+            <summary>
+            Gets the bitmap resource from a specific assembly.
+            </summary>
+            <param name="assemblyToSearch">The assembly to search.</param>
+            <returns><see cref="T:System.Drawing.Bitmap"/> or null if resource is not found.</returns>
+        </member>
+        <member name="M:Orc.Controls.AnimatedGif.OnFrameChanged(System.Object,System.EventArgs)">
+            <summary>
+            Called when a frame has changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Orc.Controls.AnimatedGif.OnFrameChangedInMainThread">
+            <summary>
+            Called when a frame changed in the main thread.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.AnimatedGif.GetBitmapSource(System.Drawing.Bitmap)">
+            <summary>
+            Gets the bitmap source.
+            </summary>
+            <param name="gdiBitmap">The GDI bitmap.</param>
+            <returns></returns>
+        </member>
+        <member name="P:Orc.Controls.AnimatedGif.IsAnimating">
+            <summary>
+            Gets or sets a value indicating whether this instance is animating.
+            </summary>
+            <value>
+            <c>true</c> if this instance is animating; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:Orc.Controls.AnimatedGif.CurrentFrame">
+            <summary>
+            Gets or sets the current frame.
+            </summary>
+            <value>The current frame.</value>
+        </member>
+        <member name="P:Orc.Controls.AnimatedGif.GifSource">
+            <summary>
+            Gets or sets GifSource.
+            </summary>
+            <remarks>
+            Wrapper for the GifSource dependency property.
+            </remarks>
+        </member>
+        <member name="T:Orc.Controls.AnimatedGif.OnFrameChangedDelegate">
+            <summary>
+            OnFrameChanged delegate.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.BindableRun">
+            <summary>
+            Bindable run class.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.BindableRun.OnBoundTextChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Invoked when the BoundText dependency property has changed.
+            </summary>
+            <param name="sender">The object that contains the dependency property.</param>
+            <param name="e">The event data.</param>
+        </member>
+        <member name="F:Orc.Controls.BindableRun.BoundTextProperty">
+            <summary>
+            DependencyProperty definition as the backing store for BoundText
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.BindableRun.BoundText">
+            <summary>
+            Wrapper for the BoundText dependency property.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.ColorLegend">
+            <summary>
+            Control to show color legend with checkboxes for each color.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorLegend.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.ColorLegend"/> class.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.OperationColorAttributeProperty">
+            <summary>
+            The operation color attribute property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.AllowColorEditingProperty">
+            <summary>
+            Property indicating whether color can be edited or not
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.ShowSearchBoxProperty">
+            <summary>
+            Property indicating whether search box is shown or not.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.ShowToolBoxProperty">
+            <summary>
+            Property indicating whethertop toolbox is shown or not.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.ShowBottomToolBoxProperty">
+            <summary>
+            Property indicating whether bottom tool box is shown or not.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.ShowSettingsProperty">
+            <summary>
+            Property indicating whether search box is shown or not.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.ShowColorVisibilityControlsProperty">
+            <summary>
+            Property indicating whether search box is shown or not.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.IsColorSelectingProperty">
+            <summary>
+            The is drop down open property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.UseRegexFilteringProperty">
+            <summary>
+            Property indicating whether search is performing using regex or not.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.EditingColorProperty">
+            <summary>
+            The current color property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.FilterProperty">
+            <summary>
+            Expose filter property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.ItemsSourceProperty">
+            <summary>
+            Property for colors list.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.IsAllVisibleProperty">
+            <summary>
+            The is all visible property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.FilteredItemsSourceProperty">
+            <summary>
+            Property for colors list.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.FilteredItemsIdsProperty">
+            <summary>
+            Property to store all visible now ids.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.FilterWatermarkProperty">
+            <summary>
+            Property for filter watermark.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorLegend.SelectedColorItemsProperty">
+            <summary>
+            The selected items property.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.OperationColorAttribute">
+            <summary>
+            Gets or sets the operation color attribute.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.AllowColorEditing">
+            <summary>
+            Gets or sets a value indicating whether color can be edited or not.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.ShowSearchBox">
+            <summary>
+            Gets or sets a value indicating whether search box is shown or not.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.ShowToolBox">
+            <summary>
+            Gets or sets a value indicating whether tool box is shown or not.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.ShowBottomToolBox">
+            <summary>
+            Gets or sets a value indicating whether tool box is shown or not.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.ShowSettings">
+            <summary>
+            Gets or sets a value indicating whether settings button is shown or not.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.ShowColorVisibilityControls">
+            <summary>
+            Gets or sets a value indicating whether settings button is shown or not.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.IsColorSelecting">
+            <summary>
+            Gets or sets a value indicating whether user editing current color.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.UseRegexFiltering">
+            <summary>
+            Gets or sets a value indicating whether regex is used when search is performed.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.EditingColor">
+            <summary>
+            Gets or sets a value indicating whether user editing current color.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.Filter">
+            <summary>
+            Gets or sets filter for list of color.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.ItemsSource">
+            <summary>
+            Gets or sets source for color items.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.IsAllVisible">
+            <summary>
+            Gets or sets a value indicating whether is all visible.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.FilteredItemsSource">
+            <summary>
+            Gets or sets a source for color items respecting current filter value.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.FilteredItemsIds">
+            <summary>
+            Gets or sets the filtered items ids.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.FilterWatermark">
+            <summary>
+            Gets or sets filter watermark string we use in search textbox.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegend.SelectedColorItems">
+            <summary>
+            Gets or sets list of selected items.
+            </summary>
+        </member>
+        <member name="E:Orc.Controls.ColorLegend.SelectionChanged">
+            <summary>
+            Selection changed event.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.ColorLegendItem">
+            <summary>
+            The color legend item.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.IColorProvider">
+            <summary>
+            The ColorProvider interface.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.IColorProvider.IsVisible">
+            <summary>
+            Gets or sets a value indicating whether color is visible or not
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.IColorProvider.Color">
+            <summary>
+            Gets or sets the color.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.IColorProvider.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.IColorProvider.AdditionalData">
+            <summary>
+            Gets or sets the additional data.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.IColorProvider.Id">
+            <summary>
+            Gets or sets the id.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegendItem.Id">
+            <summary>
+            Gets or sets the id.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegendItem.IsVisible">
+            <summary>
+            Gets or sets the property value.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegendItem.Color">
+            <summary>
+            Gets or sets the property value.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegendItem.Description">
+            <summary>
+            Gets or sets the description.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegendItem.AdditionalData">
+            <summary>
+            Gets or sets the additional data.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorLegendItem.Silent">
+            <summary>
+            Gets or sets a value indicating whether this model should behave as a lean and mean model.
+            <para />
+            A lean and mean model will not handle any validation code, nor will it raise any change notification events.
+            </summary>
+            <value><c>true</c> if this is a lean and mean model; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:Orc.Controls.ColorBoard">
+            <summary>
+            The color board.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.ColorBoard"/> class.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard.ColorProperty">
+            <summary>
+            The color property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard.RecentColorItemsProperty">
+            <summary>
+            The recent color items property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._brushColor">
+            <summary>
+            The brush color.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._buttonCancel">
+            <summary>
+            The button cancel.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._buttonDone">
+            <summary>
+            The button done.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._canvasHsv">
+            <summary>
+            The canvas hsv.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._comboBoxColor">
+            <summary>
+            The combo box color.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._dictionaryColor">
+            <summary>
+            The dictionary color.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._ellipseHsv">
+            <summary>
+            The ellipse hsv.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._gradientStopA0">
+            <summary>
+            The gradient stop a 0.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._gradientStopA1">
+            <summary>
+            The gradient stop a 1.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._gradientStopB0">
+            <summary>
+            The gradient stop b 0.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._gradientStopB1">
+            <summary>
+            The gradient stop b 1.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._gradientStopG0">
+            <summary>
+            The gradient stop g 0.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._gradientStopG1">
+            <summary>
+            The gradient stop g 1.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._gradientStopHsvColor">
+            <summary>
+            The gradient stop hsv color.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._gradientStopR0">
+            <summary>
+            The gradient stop r 0.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._gradientStopR1">
+            <summary>
+            The gradient stop r 1.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._isUpdating">
+            <summary>
+            The is updating.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._recentColorsGrid">
+            <summary>
+            The recent colors grid.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._rectangleColor">
+            <summary>
+            The rectangle color.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._rectangleHsv">
+            <summary>
+            The rectangle hsv.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._rectangleRootHsv">
+            <summary>
+            The rectangle root hsv.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard.rootElement">
+            <summary>
+            The root element.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._sliderA">
+            <summary>
+            The slider a.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._sliderB">
+            <summary>
+            The slider b.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._sliderG">
+            <summary>
+            The slider g.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._sliderHsv">
+            <summary>
+            The slider hsv.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._sliderR">
+            <summary>
+            The slider r.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._textBoxA">
+            <summary>
+            The text box a.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._textBoxB">
+            <summary>
+            The text box b.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._textBoxColor">
+            <summary>
+            The text box color.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._textBoxG">
+            <summary>
+            The text box g.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._textBoxR">
+            <summary>
+            The text box r.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._themeColors">
+            <summary>
+            The theme colors.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._themeColorsGrid">
+            <summary>
+            The theme colors grid.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorBoard._trackingHsv">
+            <summary>
+            The tracking hsv.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.OnApplyTemplate">
+            <summary>
+            The on apply template.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.OnCancelClicked">
+            <summary>
+            The on cancel clicked.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.OnDoneClicked">
+            <summary>
+            The on done clicked.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.OnColorPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            The on color property changed.
+            </summary>
+            <param name="d">The d.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.BeginUpdate">
+            <summary>
+            The begin update.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.ColorBoard_KeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            The color board_ key down.
+            </summary>
+            <param name="sender">
+            The sender.
+            </param>
+            <param name="e">
+            The e.
+            </param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.EndUpdate">
+            <summary>
+            The end update.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.GetHSVColor">
+            <summary>
+            The get hsv color.
+            </summary>
+            <returns>The <see cref="P:Orc.Controls.ColorBoard.Color"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.GetRGBColor">
+            <summary>
+            The get rgb color.
+            </summary>
+            <returns>The <see cref="P:Orc.Controls.ColorBoard.Color"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.HSV_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            The hs v_ mouse leave.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.HSV_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            The hs v_ mouse left button down.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.HSV_MouseLeftButtonUp(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            The hs v_ mouse left button up.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.HSV_MouseMove(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            The hs v_ mouse move.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.InitializePredefined">
+            <summary>
+            The initialize predefined.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.InitializeThemeColors">
+            <summary>
+            The initialize theme colors.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.UpdateControls(System.Windows.Media.Color,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            The update controls.
+            </summary>
+            <param name="color">The color.</param>
+            <param name="hsv">The hsv.</param>
+            <param name="rgb">The rgb.</param>
+            <param name="predifined">The predifined.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.buttonCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The button cancel_ click.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.buttonDone_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The button done_ click.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.comboBoxColor_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            The combo box color_ selection changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.recentColorsGrid_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            The recent colors grid_ selection changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.sliderA_ValueChanged(System.Object,System.Windows.RoutedPropertyChangedEventArgs{System.Double})">
+            <summary>
+            The slider a_ value changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.sliderB_ValueChanged(System.Object,System.Windows.RoutedPropertyChangedEventArgs{System.Double})">
+            <summary>
+            The slider b_ value changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.sliderG_ValueChanged(System.Object,System.Windows.RoutedPropertyChangedEventArgs{System.Double})">
+            <summary>
+            The slider g_ value changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.sliderHSV_ValueChanged(System.Object,System.Windows.RoutedPropertyChangedEventArgs{System.Double})">
+            <summary>
+            The slider hs v_ value changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.sliderR_ValueChanged(System.Object,System.Windows.RoutedPropertyChangedEventArgs{System.Double})">
+            <summary>
+            The slider r_ value changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.textBoxA_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The text box a_ lost focus.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.textBoxB_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The text box b_ lost focus.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.textBoxColor_GotFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The text box color_ got focus.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.textBoxColor_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The text box color_ lost focus.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.textBoxG_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The text box g_ lost focus.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.textBoxR_LostFocus(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The text box r_ lost focus.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorBoard.themeColorsGrid_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            The theme colors grid_ selection changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="P:Orc.Controls.ColorBoard.Updating">
+            <summary>
+            Gets a value indicating whether updating.
+            </summary>
+        </member>
+        <member name="E:Orc.Controls.ColorBoard.CancelClicked">
+            <summary>
+            The done clicked.
+            </summary>
+        </member>
+        <member name="E:Orc.Controls.ColorBoard.DoneClicked">
+            <summary>
+            The done clicked.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorBoard.Color">
+            <summary>
+            Gets or sets the color.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorBoard.RecentColorItems">
+            <summary>
+            Gets or sets the recent color items.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.ColorChangedEventArgs">
+            <summary>
+            The color changed event args.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorChangedEventArgs.#ctor(System.Windows.Media.Color,System.Windows.Media.Color)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.ColorChangedEventArgs"/> class.
+            </summary>
+            <param name="newColor">The new color.</param>
+            <param name="oldColor">The old color.</param>
+        </member>
+        <member name="P:Orc.Controls.ColorChangedEventArgs.NewColor">
+            <summary>
+            Gets or sets the new color.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorChangedEventArgs.OldColor">
+            <summary>
+            Gets or sets the old color.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.ColorHelper">
+            <summary>
+            The color helper.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorHelper.GetHSB_B(System.Windows.Media.Color)">
+            <summary>
+            The get hs b_ b.
+            </summary>
+            <param name="color">The color.</param>
+            <returns>The <see cref="T:System.Double"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.ColorHelper.GetHSB_H(System.Windows.Media.Color)">
+            <summary>
+            The get hs b_ h.
+            </summary>
+            <param name="color">The color.</param>
+            <returns>The <see cref="T:System.Double"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.ColorHelper.GetHSB_S(System.Windows.Media.Color)">
+            <summary>
+            The get hs b_ s.
+            </summary>
+            <param name="color">The color.</param>
+            <returns>The <see cref="T:System.Double"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.ColorHelper.GetHSV_H(System.Windows.Media.Color)">
+            <summary>
+            The get hs v_ h.
+            </summary>
+            <param name="color">The color.</param>
+            <returns>The <see cref="T:System.Double"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.ColorHelper.GetHSV_S(System.Windows.Media.Color)">
+            <summary>
+            The get hs v_ s.
+            </summary>
+            <param name="color">The color.</param>
+            <returns>The <see cref="T:System.Double"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.ColorHelper.GetHSV_V(System.Windows.Media.Color)">
+            <summary>
+            The get hs v_ v.
+            </summary>
+            <param name="color">The color.</param>
+            <returns>The <see cref="T:System.Double"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.ColorHelper.HSB2RGB(System.Double,System.Double,System.Double)">
+            <summary>
+            The hs b 2 rgb.
+            </summary>
+            <param name="h">The h.</param>
+            <param name="s">The s.</param>
+            <param name="l">The l.</param>
+            <returns>The <see cref="T:System.Windows.Media.Color"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.ColorHelper.HSV2RGB(System.Double,System.Double,System.Double)">
+            <summary>
+            The hs v 2 rgb.
+            </summary>
+            <param name="h">The h.</param>
+            <param name="s">The s.</param>
+            <param name="v">The v.</param>
+            <returns>The <see cref="T:System.Windows.Media.Color"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.ColorHelper.GetColorItem(System.Double,System.Double,System.Double)">
+            <summary>
+            The get color item.
+            </summary>
+            <param name="q">The q.</param>
+            <param name="p">The p.</param>
+            <param name="t">The t.</param>
+            <returns>The <see cref="T:System.Byte"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.ColorHelper.GetHue(System.Windows.Media.Color)">
+            <summary>
+            The get hue.
+            </summary>
+            <param name="color">The color.</param>
+            <returns>The <see cref="T:System.Double"/>.</returns>
+        </member>
+        <member name="T:Orc.Controls.ColorPicker">
+            <summary>
+            The color picker.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorPicker._colorBoard">
+            <summary>
+            The color board.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorPicker._popup">
+            <summary>
+            The popup.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorPicker._toggleDropDown">
+            <summary>
+            The toggle drop down.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorPicker.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.ColorPicker"/> class.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorPicker.OnApplyTemplate">
+            <summary>
+            The on apply template.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorPicker.ColorProperty">
+            <summary>
+            The color property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorPicker.CurrentColorProperty">
+            <summary>
+            The current color property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorPicker.IsDropDownOpenProperty">
+            <summary>
+            The is drop down open property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ColorPicker.PopupPlacementProperty">
+            <summary>
+            The popup placement property.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ColorPicker.OnColorPropertyChaged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            The on color property chaged.
+            </summary>
+            <param name="d">The d.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorPicker.OnIsDropDownOpenPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            The on is drop down open property changed.
+            </summary>
+            <param name="d">The d.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorPicker.ColorPicker_KeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            The color picker_ key down.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorPicker.OnColorChanged(System.Windows.Media.Color,System.Windows.Media.Color)">
+            <summary>
+            The on color changed.
+            </summary>
+            <param name="newColor">The new color.</param>
+            <param name="oldColor">The old color.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorPicker.colorBoard_DoneClicked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The color board_ done clicked.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorPicker.colorBoard_CancelClicked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The color board_ cancel clicked.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.ColorPicker.colorBoard_SizeChanged(System.Object,System.Windows.SizeChangedEventArgs)">
+            <summary>
+            The color board_ size changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="P:Orc.Controls.ColorPicker.Color">
+            <summary>
+            Gets or sets the color.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorPicker.CurrentColor">
+            <summary>
+            Gets or sets the current color.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorPicker.IsDropDownOpen">
+            <summary>
+            Gets or sets a value indicating whether is drop down open.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ColorPicker.PopupPlacement">
+            <summary>
+            Gets or sets the popup placement.
+            </summary>
+        </member>
+        <member name="E:Orc.Controls.ColorPicker.ColorChanged">
+            <summary>
+            The color changed.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.PredefinedColor">
+            <summary>
+            The predefined color.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PredefinedColor.LockSingleton">
+            <summary>
+            The lock singleton.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PredefinedColor._dictionaryColors">
+            <summary>
+            The dictionary colors.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PredefinedColor._listColors">
+            <summary>
+            The list colors.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PredefinedColor._listThemeColors">
+            <summary>
+            The list theme colors.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PredefinedColor.#ctor(System.Byte,System.Byte,System.Byte,System.Byte,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.PredefinedColor"/> class.
+            </summary>
+            <param name="a">The a.</param>
+            <param name="r">The r.</param>
+            <param name="g">The g.</param>
+            <param name="b">The b.</param>
+            <param name="name">The name.</param>
+        </member>
+        <member name="M:Orc.Controls.PredefinedColor.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.PredefinedColor"/> class.
+            </summary>
+            <param name="rgb">The rgb.</param>
+            <param name="name">The name.</param>
+        </member>
+        <member name="M:Orc.Controls.PredefinedColor.GetColorName(System.Windows.Media.Color)">
+            <summary>
+            The get color name.
+            </summary>
+            <param name="color">The color.</param>
+            <returns>The <see cref="T:System.String"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.PredefinedColor.GetPredefinedColor(System.Windows.Media.Color)">
+            <summary>
+            The get predefined color.
+            </summary>
+            <param name="color">The color.</param>
+            <returns>The <see cref="T:Orc.Controls.PredefinedColor"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.PredefinedColor.IsPredefined(System.Windows.Media.Color)">
+            <summary>
+            The is predefined.
+            </summary>
+            <param name="color">The color.</param>
+            <returns>The <see cref="T:System.Boolean"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.PredefinedColor.Initialize">
+            <summary>
+            The initialize.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PredefinedColor.InitializeThemeColors">
+            <summary>
+            The initialize theme colors.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PredefinedColor.Initialize_Alphabet">
+            <summary>
+            The initialize_ alphabet.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PredefinedColor.Initialize_Windows">
+            <summary>
+            The initialize_ windows.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.PredefinedColor.All">
+            <summary>
+            Gets the all.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.PredefinedColor.AllThemeColors">
+            <summary>
+            Gets the all theme colors.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.PredefinedColor.Name">
+            <summary>
+            Gets the name.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.PredefinedColor.Value">
+            <summary>
+            Gets the value.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.PredefinedColorItem">
+            <summary>
+            The predefined color item.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PredefinedColorItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.PredefinedColorItem"/> class.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PredefinedColorItem.#ctor(System.Windows.Media.Color,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.PredefinedColorItem"/> class.
+            </summary>
+            <param name="color">The color.</param>
+            <param name="text">The text.</param>
+        </member>
+        <member name="F:Orc.Controls.PredefinedColorItem.ColorProperty">
+            <summary>
+            The color property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PredefinedColorItem.TextProperty">
+            <summary>
+            The text property.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.PredefinedColorItem.Color">
+            <summary>
+            Gets or sets the color.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.PredefinedColorItem.Text">
+            <summary>
+            Gets or sets the text.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.WrapPanel">
+            <summary>
+            The wrap panel.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.WrapPanel.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            The arrange override.
+            </summary>
+            <param name="finalSize">The final size.</param>
+            <returns>The <see cref="T:System.Windows.Size"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.WrapPanel.MeasureOverride(System.Windows.Size)">
+            <summary>
+            The measure override.
+            </summary>
+            <param name="availableSize">The available size.</param>
+            <returns>The <see cref="T:System.Windows.Size"/>.</returns>
+        </member>
+        <member name="T:Orc.Controls.DatePickerControl">
+            <summary>
+            Interaction logic for TimeSpanControl.xaml
+            </summary>
+            <summary>
+            DatePickerControl
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.DatePickerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.DateTimePickerControl">
+            <summary>
+            Interaction logic for TimeSpanControl.xaml
+            </summary>
+            <summary>
+            DateTimePickerControl
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.DateTimePickerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.DirectoryPickerViewModel.OnOpenDirectoryCanExecute">
+            <summary>
+            Method to check whether the OpenDirectory command can be executed.
+            </summary>
+            <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+        </member>
+        <member name="M:Orc.Controls.DirectoryPickerViewModel.OnOpenDirectoryExecute">
+            <summary>
+            Method to invoke when the OpenDirectory command is executed.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.DirectoryPickerViewModel.OnSelectDirectoryExecute">
+            <summary>
+            Method to invoke when the SelectOutputDirectory command is executed.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.DirectoryPickerViewModel.OpenDirectory">
+            <summary>
+            Gets the OpenDirectory command.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.DirectoryPickerViewModel.SelectDirectory">
+            <summary>
+            Gets the SelectDirectory command.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.DirectoryPickerView">
+            <summary>
+                Interaction logic for DirectoryPickerView.xaml
+            </summary>
+            <summary>
+            DirectoryPickerView
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.DirectoryPickerView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.DirectoryPickerView"/> class.
+            </summary>
+            <remarks>This method is required for design time support.</remarks>
+        </member>
+        <member name="M:Orc.Controls.DirectoryPickerView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.DropDownButton">
+            <summary>
+            Interaction logic for DropDownButton.xaml
+            </summary>
+            <summary>
+            DropDownButton
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.DropDownButton.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.FilterBoxControl">
+            <summary>
+            Interaction logic for FilterBox.xaml
+            </summary>
+            <summary>
+            FilterBoxControl
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.FilterBoxControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.LinkLabelBehavior">
+            <summary>
+            Available <see cref="T:Orc.Controls.LinkLabel"/> behaviors.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabelBehavior.SystemDefault">
+            <summary>
+            Default.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabelBehavior.AlwaysUnderline">
+            <summary>
+            Always underline.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabelBehavior.HoverUnderline">
+            <summary>
+            Hover underline.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabelBehavior.NeverUnderline">
+            <summary>
+            Never underline.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.LinkLabelClickBehavior">
+            <summary>
+            Available <see cref="T:Orc.Controls.LinkLabel"/> clickevent behaviors.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabelClickBehavior.Undefined">
+            <summary>
+            No explicit behavior defined, will use the set-click-event.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabelClickBehavior.OpenUrlInBrowser">
+            <summary>
+            Opens the set url in the systems webbrowser.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.LinkLabel">
+            <summary>
+            A label looking like the known hyperlink.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.Log">
+            <summary>
+            The <see cref="T:Catel.Logging.ILog">log</see> object.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.LinkLabel.#cctor">
+            <summary>
+            Initializes the <see cref="T:Orc.Controls.LinkLabel"/> class.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.LinkLabel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.LinkLabel"/> class.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.UrlProperty">
+            <summary>
+            DependencyProperty definition as the backing store for Url
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.HasUrlProperty">
+            <summary>
+            DependencyProperty definition as the backing store for HasUrl
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.HyperlinkStyleProperty">
+            <summary>
+            DependencyProperty definition as the backing store for HyperlinkStyle
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.HoverForegroundProperty">
+            <summary>
+            DependencyProperty definition as the backing store for HoverForeground
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.LinkLabelBehaviorProperty">
+            <summary>
+            DependencyProperty definition as the backing store for LinkLabelBehavior
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.ClickBehaviorProperty">
+            <summary>
+            DependencyProperty definition as the backing store for ClickBehavior
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.CommandParameterProperty">
+            <summary>
+            DependencyProperty definition as the backing store for CommandParameter
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.CommandProperty">
+            <summary>
+            DependencyProperty definition as the backing store for Command
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.CommandTargetProperty">
+            <summary>
+            DependencyProperty definition as the backing store for CommandTarget
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.ClickEvent">
+            <summary>
+            ClickEvent
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.LinkLabel.RequestNavigateEvent">
+            <summary>
+            RequestNavigateEvent
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.LinkLabel.OnLinkLabelUnloaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Unloaded event of the LinkLabel control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Orc.Controls.LinkLabel.OnUrlPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles change of property Url.
+            </summary>
+            <param name="sender">A sender.</param>
+            <param name="args">Event args.</param>
+        </member>
+        <member name="M:Orc.Controls.LinkLabel.OnClickBehaviorChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            Handles a change of the ClickBehavior property.
+            </summary>
+            <param name="sender">The event sender.</param>
+            <param name="args">The event arguments.</param>
+        </member>
+        <member name="M:Orc.Controls.LinkLabel.OnApplyTemplate">
+            <summary>
+            When overridden in a derived class, is invoked whenever application code or internal processes call <see cref="M:System.Windows.FrameworkElement.ApplyTemplate"/>.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.LinkLabel.OnInnerHyperlinkRequestNavigate(System.Object,System.Windows.Navigation.RequestNavigateEventArgs)">
+            <summary>
+            Handles the RequestNavigate event of the InnerHyperlink control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.Navigation.RequestNavigateEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Orc.Controls.LinkLabel.OnInnerHyperlinkClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the Click event of the InnerHyperlink control.
+            </summary>
+            <param name="sender">The source of the event.</param>
+            <param name="e">The <see cref="T:System.Windows.RoutedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:Orc.Controls.LinkLabel.OpenBrowserBehaviorImpl(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Handles the click event of the default linklabel.
+            </summary>
+            <param name="sender">Event sender</param>
+            <param name="args">Event arguments</param>
+        </member>
+        <member name="P:Orc.Controls.LinkLabel.Url">
+            <summary>
+            Gets or sets the URL.
+            </summary>
+            <value>The URL.</value>
+        </member>
+        <member name="P:Orc.Controls.LinkLabel.HasUrl">
+            <summary>
+            Indicates whether url has a value.
+            </summary>
+            <value><c>true</c> if this instance has URL; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Orc.Controls.LinkLabel.HyperlinkStyle">
+            <summary>
+            Gets or sets the hyperlink style.
+            </summary>
+            <value>The hyperlink style.</value>
+        </member>
+        <member name="P:Orc.Controls.LinkLabel.HoverForeground">
+            <summary>
+            Gets or sets the hover foreground.
+            </summary>
+            <value>The hover foreground.</value>
+        </member>
+        <member name="P:Orc.Controls.LinkLabel.LinkLabelBehavior">
+            <summary>
+            Gets or sets the link label behavior.
+            </summary>
+            <value>The link label behavior.</value>
+        </member>
+        <member name="P:Orc.Controls.LinkLabel.ClickBehavior">
+            <summary>
+            Wrapper for the ClickBehavior dependency property.
+            </summary>
+            <value>The click behavior.</value>
+        </member>
+        <member name="P:Orc.Controls.LinkLabel.CommandParameter">
+            <summary>
+            Gets or sets the command parameter.
+            </summary>
+            <value>The command parameter.</value>
+        </member>
+        <member name="P:Orc.Controls.LinkLabel.Command">
+            <summary>
+            Gets or sets the command.
+            </summary>
+            <value>The command.</value>
+        </member>
+        <member name="P:Orc.Controls.LinkLabel.CommandTarget">
+            <summary>
+            Gets or sets the command target.
+            </summary>
+            <value>The command target.</value>
+        </member>
+        <member name="E:Orc.Controls.LinkLabel.Click">
+            <summary>
+            Occurs when [click].
+            </summary>
+        </member>
+        <member name="E:Orc.Controls.LinkLabel.RequestNavigate">
+            <summary>
+            Occurs when [request navigate].
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.LogViewerControl">
+            <summary>
+            Interaction logic for LogViewerControl.xaml.
+            </summary>
+            <summary>
+            LogViewerControl
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.LogViewerControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.OpenFilePickerViewModel.OnOpenDirectoryCanExecute">
+            <summary>
+            Method to check whether the OpenDirectory command can be executed.
+            </summary>
+            <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+        </member>
+        <member name="M:Orc.Controls.OpenFilePickerViewModel.OnOpenDirectoryExecute">
+            <summary>
+            Method to invoke when the OpenDirectory command is executed.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.OpenFilePickerViewModel.OnSelectFileExecute">
+            <summary>
+            Method to invoke when the SelectFile command is executed.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.OpenFilePickerViewModel.OpenDirectory">
+            <summary>
+            Gets the OpenDirectory command.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.OpenFilePickerViewModel.SelectFile">
+            <summary>
+            Gets the SelectFile command.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.OpenFilePickerView">
+            <summary>
+                Interaction logic for OpenFilePickerView.xaml
+            </summary>
+            <summary>
+            OpenFilePickerView
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.OpenFilePickerView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.OpenFilePickerView"/> class.
+            </summary>
+            <remarks>This method is required for design time support.</remarks>
+        </member>
+        <member name="M:Orc.Controls.OpenFilePickerView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.ControlAdorner">
+            <summary>
+            An adorner class that contains a control as only child.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ControlAdorner.#ctor(System.Windows.UIElement)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.ControlAdorner"/> class.
+            </summary>
+            <param name="adornedElement">The adorned element.</param>
+        </member>
+        <member name="F:Orc.Controls.ControlAdorner._child">
+            <summary>
+            The child.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ControlAdorner._offset">
+            <summary>
+            The offset.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ControlAdorner.VisualChildrenCount">
+            <summary>
+            Gets the visual children count.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ControlAdorner.Child">
+            <summary>
+            Gets or sets the child.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ControlAdorner.ChildPosition">
+            <summary>
+            Gets the child position.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ControlAdorner.HorizontalOffset">
+            <summary>
+            Gets or sets the horizontal offset.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ControlAdorner.Offset">
+            <summary>
+            Gets or sets the offset.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.ControlAdornerDragDrop">
+            <summary>
+            A class that makes ControlAdorner moveable.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ControlAdornerDragDrop.#ctor">
+            <summary>
+            Prevents a default instance of the <see cref="T:Orc.Controls.ControlAdornerDragDrop"/> class from being created.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.IControlAdornerChild">
+            <summary>
+            The ControlAdornerChild interface.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.IControlAdornerChild.GetPosition">
+            <summary>
+            The get position.
+            </summary>
+            <returns>The <see cref="T:System.Windows.Point"/>.</returns>
+        </member>
+        <member name="T:Orc.Controls.PopupDragDrop">
+            <summary>
+            A class that makes popups moveable.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PopupDragDrop.#ctor">
+            <summary>
+            Prevents a default instance of the <see cref="T:Orc.Controls.PopupDragDrop"/> class from being created.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.PinnableToolTip">
+            <summary>
+            The pinnable toolTip control.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTip.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.PinnableToolTip"/> class.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTip.OnApplyTemplate">
+            <summary>
+                The on apply template.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTip.RegisterBeingInFront">
+            <summary>
+            The register being in front.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.PinnableToolTip.IsTimerEnabled">
+            <summary>
+            Gets a value indicating whether is timer enabled.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.LinkToolTipItem">
+            <summary>
+            The link tooltip item.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.LinkToolTipItem.Key">
+            <summary>
+            Gets or sets the key.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.LinkToolTipItem.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.OrdinalToolTipItem">
+            <summary>
+            The ordinal tooltip item.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.OrdinalToolTipItem.Key">
+            <summary>
+            Gets or sets the key.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.OrdinalToolTipItem.Value">
+            <summary>
+            Gets or sets the value.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.PinnableToolTipService">
+            <summary>
+            The pinnable toolTip service.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService.DefaultInitialShowDelay">
+            <summary>
+            The default initial show delay.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService.DefaultShowDuration">
+            <summary>
+            The default show duration.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService.Locker">
+            <summary>
+            The locker.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService._mousePosition">
+            <summary>
+            The mouse position.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService._rootVisual">
+            <summary>
+            The root visual.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService.InitialShowDelayProperty">
+            <summary>
+            The initial show delay property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService.PlacementProperty">
+            <summary>
+            The placement property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService.PlacementTargetProperty">
+            <summary>
+            The placement target property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService.ShowDurationProperty">
+            <summary>
+            The show duration property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService.ToolTipProperty">
+            <summary>
+            The toolTip property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService.IsToolTipOwnerProperty">
+            <summary>
+            The toolTip owner property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.PinnableToolTipService.ElementsAndToolTips">
+            <summary>
+            The elements and tool tips.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.GetInitialShowDelay(System.Windows.DependencyObject)">
+            <summary>
+            The get initial show delay.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>The <see cref="T:System.Int32"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.GetPlacement(System.Windows.DependencyObject)">
+            <summary>
+            The get placement.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>The <see cref="T:System.Windows.Controls.Primitives.PlacementMode"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.GetPlacementTarget(System.Windows.DependencyObject)">
+            <summary>
+            The get placement target.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>The <see cref="T:System.Windows.UIElement"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.GetShowDuration(System.Windows.DependencyObject)">
+            <summary>
+            The get show duration.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>The <see cref="T:System.Int32"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.GetToolTip(System.Windows.DependencyObject)">
+            <summary>
+            The get toolTip.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>The <see cref="T:System.Object"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.GetIsToolTipOwner(System.Windows.DependencyObject)">
+            <summary>
+            The get is toolTip owner.
+            </summary>
+            <param name="element">The element.</param>
+            <returns>The <see cref="T:System.Object"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.SetInitialShowDelay(System.Windows.DependencyObject,System.Int32)">
+            <summary>
+            The set initial show delay.
+            </summary>
+            <param name="element">The element.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.SetPlacement(System.Windows.DependencyObject,System.Windows.Controls.Primitives.PlacementMode)">
+            <summary>
+            The set placement.
+            </summary>
+            <param name="element">The element.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.SetPlacementTarget(System.Windows.DependencyObject,System.Windows.UIElement)">
+            <summary>
+            The set placement target.
+            </summary>
+            <param name="element">The element.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.SetShowDuration(System.Windows.DependencyObject,System.Int32)">
+            <summary>
+            The set show duration.
+            </summary>
+            <param name="element">The element.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.SetToolTip(System.Windows.DependencyObject,System.Object)">
+            <summary>
+            The set toolTip.
+            </summary>
+            <param name="element">The element.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.SetIsToolTipOwner(System.Windows.DependencyObject,System.Boolean)">
+            <summary>
+            The set is toolTip owner.
+            </summary>
+            <param name="element">The element.</param>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.ConvertToToolTip(System.Object)">
+            <summary>
+            The convert to toolTip.
+            </summary>
+            <param name="p">The p.</param>
+            <returns>The <see cref="T:Orc.Controls.PinnableToolTip"/>.</returns>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.FrameworkElementUnloaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            The framework element unloaded.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.OnControlEnabledChanged(System.Object,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            The on control enabled changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.OnElementMouseEnter(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            The on element mouse enter.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.OnElementMouseLeave(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            The on element mouse leave.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.OnPlacementPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            The on placement property changed.
+            </summary>
+            <param name="d">The d.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.OnPlacementTargetPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            The on placement target property changed.
+            </summary>
+            <param name="d">The d.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.OnRootVisualMouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            The on root visual mouse left button down.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.OnRootVisualMouseMove(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            The on root visual mouse move.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.OnIsToolTipOwnerPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            The on is toolTip owner property changed.
+            </summary>
+            <param name="d">The d.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.OnToolTipPropertyChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            The on toolTip property changed.
+            </summary>
+            <param name="d">The d.</param>
+            <param name="e">The e.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.RegisterToolTip(System.Windows.UIElement,System.Object)">
+            <summary>
+            The register toolTip.
+            </summary>
+            <param name="owner">The owner.</param>
+            <param name="p">The p.</param>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.SetRootVisual">
+            <summary>
+                The set root visual.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.PinnableToolTipService.UnregisterToolTip(System.Windows.UIElement)">
+            <summary>
+            The unregister toolTip.
+            </summary>
+            <param name="owner">The owner.</param>
+        </member>
+        <member name="P:Orc.Controls.PinnableToolTipService.MousePosition">
+            <summary>
+                Gets the mouse position.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.PinnableToolTipService.RootVisual">
+            <summary>
+                Gets the root visual.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.PinnableItemTemplateSelector">
+            <summary>
+            The pinnable item template selector.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.ToolTipTimer">
+            <summary>
+            A timer used to open and close tooltips.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.ToolTipTimer.TimerInterval">
+            <summary>
+            The timer interval.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ToolTipTimer.#ctor(System.TimeSpan,System.TimeSpan)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.ToolTipTimer"/> class.
+            </summary>
+            <param name="maximumTicks">The maximum ticks.</param>
+            <param name="initialDelay">The initial delay.</param>
+        </member>
+        <member name="M:Orc.Controls.ToolTipTimer.StartAndReset">
+            <summary>
+            Resets the ToolTipTimer and starts it.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ToolTipTimer.Stop">
+            <summary>
+            Stops the ToolTipTimer.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.ToolTipTimer.StopAndReset">
+            <summary>
+            Stops the ToolTipTimer and resets its tick count.
+            </summary>
+        </member>
+        <member name="E:Orc.Controls.ToolTipTimer.Stopped">
+            <summary>
+            This event occurs when the timer has stopped.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ToolTipTimer.CurrentTick">
+            <summary>
+            Gets the current tick of the ToolTipTimer.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.ToolTipTimer.InitialDelay">
+            <summary>
+            Gets the initial delay for this timer in seconds.
+            When the maximum number of ticks is hit, the timer will stop itself.
+            </summary>
+            <remarks>The default delay is 0 seconds.</remarks>
+        </member>
+        <member name="P:Orc.Controls.ToolTipTimer.MaximumTicks">
+            <summary>
+            Gets the maximum number of seconds for this timer.
+            When the maximum number of ticks is hit, the timer will stop itself.
+            </summary>
+            <remarks>The minimum number of seconds is 1.</remarks>
+        </member>
+        <member name="M:Orc.Controls.SaveFilePickerViewModel.OnOpenDirectoryCanExecute">
+            <summary>
+            Method to check whether the OpenDirectory command can be executed.
+            </summary>
+            <returns><c>true</c> if the command can be executed; otherwise <c>false</c></returns>
+        </member>
+        <member name="M:Orc.Controls.SaveFilePickerViewModel.OnOpenDirectoryExecute">
+            <summary>
+            Method to invoke when the OpenDirectory command is executed.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.SaveFilePickerViewModel.OnSelectFileExecute">
+            <summary>
+            Method to invoke when the SelectFile command is executed.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.SaveFilePickerViewModel.OpenDirectory">
+            <summary>
+            Gets the OpenDirectory command.
+            </summary>
+        </member>
+        <member name="P:Orc.Controls.SaveFilePickerViewModel.SelectFile">
+            <summary>
+            Gets the SelectFile command.
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.SaveFilePickerView">
+            <summary>
+                Interaction logic for SaveFilePickerView.xaml
+            </summary>
+            <summary>
+            SaveFilePickerView
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.SaveFilePickerView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orc.Controls.SaveFilePickerView"/> class.
+            </summary>
+            <remarks>This method is required for design time support.</remarks>
+        </member>
+        <member name="M:Orc.Controls.SaveFilePickerView.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.TimeSpanControl">
+            <summary>
+            Interaction logic for TimeSpanControl.xaml
+            </summary>
+            <summary>
+            TimeSpanControl
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.TimeSpanControl.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:Orc.Controls.WatermarkTextBox">
+            <summary>
+            WatermarkTextBox which is a simple <see cref="T:System.Windows.Controls.TextBox"/> that is able to show simple and complex watermarks.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.WatermarkTextBox.#cctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Windows.Controls.TextBox"/> class.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.WatermarkTextBox.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Windows.Controls.TextBox"/> class.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.WatermarkTextBox.SelectAllOnGotFocusProperty">
+            <summary>
+            Dependency property registration for the <see cref="P:Orc.Controls.WatermarkTextBox.SelectAllOnGotFocus"/> property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.WatermarkTextBox.WatermarkProperty">
+            <summary>
+            Dependency property registration for the <see cref="P:Orc.Controls.WatermarkTextBox.Watermark"/> property.
+            </summary>
+        </member>
+        <member name="F:Orc.Controls.WatermarkTextBox.WatermarkTemplateProperty">
+            <summary>
+            Dependency property registration for the <see cref="P:Orc.Controls.WatermarkTextBox.WatermarkTemplate"/> property.
+            </summary>
+        </member>
+        <member name="M:Orc.Controls.WatermarkTextBox.OnGotKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>
+            Invoked whenever an unhandled <c>System.Windows.Input.Keyboard.GotKeyboardFocus</c> attached routed event reaches an element derived from this class in its route. Implement this method to add class handling for this event.
+            </summary>
+            <param name="e">Provides data about the event.</param>
+            <remarks></remarks>
+        </member>
+        <member name="M:Orc.Controls.WatermarkTextBox.OnPreviewMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Invoked when an unhandled <see cref="E:System.Windows.UIElement.PreviewMouseLeftButtonDown"/> routed event reaches an element in its route that is derived from this class. Implement this method to add class handling for this event.
+            </summary>
+            <param name="e">The <see cref="T:System.Windows.Input.MouseButtonEventArgs"/> that contains the event data. The event data reports that the left mouse button was pressed.</param>
+            <remarks></remarks>
+        </member>
+        <member name="P:Orc.Controls.WatermarkTextBox.SelectAllOnGotFocus">
+            <summary>
+            Gets or sets a value indicating whether all text should be selected when the control receives the focus.
+            </summary>
+            <value><c>true</c> if all text should be selected when the control receives the focus; otherwise, <c>false</c>.</value>
+            <remarks></remarks>
+        </member>
+        <member name="P:Orc.Controls.WatermarkTextBox.Watermark">
+            <summary>
+            Gets or sets the watermark to show.
+            </summary>
+            <value>The watermark.</value>
+            <remarks></remarks>
+        </member>
+        <member name="P:Orc.Controls.WatermarkTextBox.WatermarkTemplate">
+            <summary>
+            Gets or sets the watermark template to show.
+            </summary>
+            <value>The watermark template.</value>
+            <remarks></remarks>
+        </member>
+        <member name="T:ModuleInitializer">
+            <summary>
+            Used by the ModuleInit. All code inside the Initialize method is ran as soon as the assembly is loaded.
+            </summary>
+        </member>
+        <member name="M:ModuleInitializer.Initialize">
+            <summary>
+            Initializes the module.
+            </summary>
+        </member>
+        <member name="T:XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+            <summary>
+            GeneratedInternalTypeHelper
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+            <summary>
+            CreateInstance
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            GetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            SetPropertyValue
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+            <summary>
+            CreateDelegate
+            </summary>
+        </member>
+        <member name="M:XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+            <summary>
+            AddEventHandler
+            </summary>
+        </member>
+    </members>
+</doc>

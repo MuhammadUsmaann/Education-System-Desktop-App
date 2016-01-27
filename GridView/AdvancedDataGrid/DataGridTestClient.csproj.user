@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Documents and Settings\Roshan\Desktop\Deployment\WPFControlKitDataGrid\|C:\Documents and Settings\Roshan\Desktop\Deployment\WPFExtended\|C:\Documents and Settings\Roshan\Desktop\Deployment\ColumnChooser\|C:\Documents and Settings\Roshan\Desktop\Deployment\MultiEventCommandBinder\|C:\Documents and Settings\Roshan\Desktop\Snippet 2 Vsi Converter Deployment\</PublishUrlHistory>
+    <InstallUrlHistory>http://www.interviewforit.firm.in/WpfControlKit/|http://www.interviewforit.firm.in/|http://wpfextendeddatagrid.codeplex.com/releases/clickonce/|http://columnchooser.codeplex.com/releases/clickonce/|http://multieventcommand.codeplex.com/releases/clickonce/</InstallUrlHistory>
+    <SupportUrlHistory>http://columnchooser.codeplex.com|http://multieventcommand.codeplex.com/|http://snippet2vsi.codeplex.com</SupportUrlHistory>
+    <UpdateUrlHistory>http://wpfextendeddatagrid.codeplex.com/releases/clickonce/|http://columnchooser.codeplex.com/releases/clickonce/|http://http://columnchooser.codeplex.com/releases/clickonce/|http://multieventcommand.codeplex.com/releases/clickonce/|http://snippet2vsi.codeplex.com/releases/clickonce/</UpdateUrlHistory>
+    <BootstrapperUrlHistory>http://www.microsoft.com/download/en/details.aspx%3fid=17851</BootstrapperUrlHistory>
+    <ErrorReportUrlHistory>http://columnchooser.codeplex.com|http://multieventcommand.codeplex.com/|http://snippet2vsi.codeplex.com</ErrorReportUrlHistory>
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+</Project>

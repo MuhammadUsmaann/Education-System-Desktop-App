@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AB1A37EF-4E8A-4300-B8BA-55F8D67DEA7F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ES.UI</RootNamespace>
+    <AssemblyName>ES.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <NuGetPackageImportStamp>457b5902</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.99.0\lib\net45\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.99.0\lib\net45\System.Data.SQLite.EF6.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.99.0\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Controls.Ribbon" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="CommonControls\BaseUserControl\BaseUserControl.cs" />
+    <Compile Include="CommonControls\CustomMessageBox.xaml.cs">
+      <DependentUpon>CustomMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\DeleteMessageBox.xaml.cs">
+      <DependentUpon>DeleteMessageBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\MainWindowContainer.xaml.cs">
+      <DependentUpon>MainWindowContainer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\PopUpWindow.xaml.cs">
+      <DependentUpon>PopUpWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\BaseUserControl\RepositoryCollection.cs" />
+    <Compile Include="CommonControls\RibbonControl.xaml.cs">
+      <DependentUpon>RibbonControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\SplashScreen.xaml.cs">
+      <DependentUpon>SplashScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Attendance\StudentAttendanceReport.xaml.cs">
+      <DependentUpon>StudentAttendanceReport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Finance\Pay\ucTeacherPay.xaml.cs">
+      <DependentUpon>ucTeacherPay.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\LoginScreen.xaml.cs">
+      <DependentUpon>LoginScreen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Class\ucSectionListView.xaml.cs">
+      <DependentUpon>ucSectionListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Exams\ucClassResult.xaml.cs">
+      <DependentUpon>ucClassResult.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Exam\ucExamsSettingListView.xaml.cs">
+      <DependentUpon>ucExamsSettingListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Exam\ucGradeSettingListView.xaml.cs">
+      <DependentUpon>ucGradeSettingListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Exams\ucMarkClassMarksListView.xaml.cs">
+      <DependentUpon>ucMarkClassMarksListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Exams\ucStudentResult.xaml.cs">
+      <DependentUpon>ucStudentResult.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Attendance\ucClassAttendanceListView.xaml.cs">
+      <DependentUpon>ucClassAttendanceListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Class\ucClassDetailView.xaml.cs">
+      <DependentUpon>ucClassDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Class\ucClassListView.xaml.cs">
+      <DependentUpon>ucClassListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Finance\Fee\ucClassFee.xaml.cs">
+      <DependentUpon>ucClassFee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Finance\Fee\ucParentFee.xaml.cs">
+      <DependentUpon>ucParentFee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Finance\Fee\ucStudentFee.xaml.cs">
+      <DependentUpon>ucStudentFee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Staff\ucEducationDetailView.xaml.cs">
+      <DependentUpon>ucEducationDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Staff\ucExperienceDetailView.xaml.cs">
+      <DependentUpon>ucExperienceDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Student\ucParentSearchListView.xaml.cs">
+      <DependentUpon>ucParentSearchListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Session\ucSessionListView.xaml.cs">
+      <DependentUpon>ucSessionListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Session\ucSessionView.xaml.cs">
+      <DependentUpon>ucSessionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Staff\ucStaffDetailView.xaml.cs">
+      <DependentUpon>ucStaffDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Staff\ucStaffListView.xaml.cs">
+      <DependentUpon>ucStaffListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Attendance\ucStudentAttendanceDetailView.xaml.cs">
+      <DependentUpon>ucStudentAttendanceDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Student\ucStudentDetailView.xaml.cs">
+      <DependentUpon>ucStudentDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Student\ucStudentListView.xaml.cs">
+      <DependentUpon>ucStudentListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Subject\ucSubjectDetailView.xaml.cs">
+      <DependentUpon>ucSubjectDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Setups\Setting\Subject\ucSubjectListView.xaml.cs">
+      <DependentUpon>ucSubjectListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\Utilities.cs" />
+    <Compile Include="Setups\Attendance\ucMarkClassAttendance.xaml.cs">
+      <DependentUpon>ucMarkClassAttendance.xaml</DependentUpon>
+    </Compile>
+    <Page Include="CommonControls\CustomMessageBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\DeleteMessageBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\MainWindowContainer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\PopUpWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\RibbonControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\SplashScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Reports\Attendance\StudentAttendanceReport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Button.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\Style.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Finance\Pay\ucTeacherPay.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\LoginScreen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Class\ucSectionListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Exams\ucClassResult.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Exam\ucExamsSettingListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Exam\ucGradeSettingListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Exams\ucMarkClassMarksListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Exams\ucStudentResult.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Attendance\ucClassAttendanceListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Class\ucClassDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Class\ucClassListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Finance\Fee\ucClassFee.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Setups\Finance\Fee\ucParentFee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Finance\Fee\ucStudentFee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Staff\ucEducationDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Staff\ucExperienceDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Student\ucParentSearchListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Session\ucSessionListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Session\ucSessionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Staff\ucStaffDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Staff\ucStaffListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Attendance\ucStudentAttendanceDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Student\ucStudentDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Student\ucStudentListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Subject\ucSubjectDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Setting\Subject\ucSubjectListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Setups\Attendance\ucMarkClassAttendance.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ES.BusinessLayer\ES.BusinessLayer.csproj">
+      <Project>{d5b23c64-4807-42b8-92cd-bf8814602b8b}</Project>
+      <Name>ES.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ES.Configurations\ES.Configurations.csproj">
+      <Project>{0292279f-102e-4abc-9705-516f42884f4a}</Project>
+      <Name>ES.Configurations</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ES.Controls\ES.Controls.csproj">
+      <Project>{97fb1f1e-9dd9-4e56-8e9f-35b143643cc3}</Project>
+      <Name>ES.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ES.Entities\ES.Entities.csproj">
+      <Project>{8ef1ae45-2849-46cc-aa28-fe62f7e406b6}</Project>
+      <Name>ES.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GridView\ExtendedGrid\ExtendedGrid.csproj">
+      <Project>{ef568126-a1d2-49cf-a2c1-1edb8dfc3e40}</Project>
+      <Name>ExtendedGrid</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TabControl\Wpf.TabControl.csproj">
+      <Project>{509d06bd-aeb6-4e92-8e5b-21188ebdbd9c}</Project>
+      <Name>Wpf.TabControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataGrid\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1353183085_save.png" />
+    <Resource Include="Images\add.png" />
+    <Resource Include="Images\copy.png" />
+    <Resource Include="Images\cut.png" />
+    <Resource Include="Images\format_painter.png" />
+    <Resource Include="Images\go-next.png" />
+    <Resource Include="Images\go-previous.png" />
+    <Resource Include="Images\help.png" />
+    <Resource Include="Images\home.png" />
+    <Resource Include="Images\options.png" />
+    <Resource Include="Images\paste.png" />
+    <Resource Include="Images\personal.png" />
+    <Resource Include="Images\quit.png" />
+    <Resource Include="Images\redo.png" />
+    <Resource Include="Images\save.png" />
+    <Resource Include="Images\undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\splash.JPG" />
+    <Resource Include="Images\wpfed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\bg_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\logo_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DLLs\SQLite.Interop\x64\SQLite.Interop.dll" />
+    <Content Include="DLLs\SQLite.Interop\x86\SQLite.Interop.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.99.0\build\net45\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.99.0\build\net45\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.99.0\build\net45\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.99.0\build\net45\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

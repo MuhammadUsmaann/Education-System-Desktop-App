@@ -1,0 +1,82 @@
+﻿<my:BaseUserControl
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:my ="clr-namespace:ES.UI"
+            Loaded="SubjectListUserControl_Loaded"
+            x:Class="ES.UI.Setups.ucSubjectListView" 
+            xmlns:ExtendedGridControl="clr-namespace:ExtendedGrid.ExtendedGridControl;assembly=ExtendedGrid"
+            xmlns:ExtendedColumn="clr-namespace:ExtendedGrid.ExtendedColumn;assembly=ExtendedGrid"
+            mc:Ignorable="d" 
+            d:DesignHeight="200" d:DesignWidth="800"
+            x:Name="SubjectListUserControl">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+            <Grid x:Name="WindowHeader" Height="Auto" Grid.Row="0">
+                
+                <StackPanel Grid.Column="0" 
+                        DataContext="{Binding}" 
+                        Margin="5,5,0,5" 
+                        Orientation="Horizontal" 
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Stretch">
+                    <Button Content="Add"
+                            Margin="5 0 0 0"
+                            x:Name="btnAddSubject"
+                            Click="btnAddSubject_Click"
+                           />
+                    <!--<Button Content="Delete"
+                            Margin="5 0 0 0"
+                            x:Name="btnDeleteSubject"
+                            Click="btnDeleteSubject_Click"
+                           />-->
+
+                    <Button Content="Refresh"
+                            Margin="5 0 0 0"
+                            x:Name="btnRefreshSubject"
+                            Click="btnRefreshSubject_Click"
+                           />
+
+                </StackPanel>
+               
+        </Grid>
+
+
+        <ExtendedGridControl:ExtendedDataGrid  x:Name="gvSubjectListView" 
+                                               Grid.Row="1"
+                                               ItemsSource="{Binding Path=SubjectList, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                               AutoGenerateColumns="False" 
+                                               HideColumnChooser="True"
+                                               CanUserAddRows="False" 
+                                               OnlyTwoWaySorting="True"
+                                               IsReadOnly="True"
+                                               SearchAutoFilterVisibility="Hidden" 
+                                               AutoFilterFontSize="12"
+                                               GroupByControlVisibility="Collapsed">
+            <DataGrid.Columns>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="Subject Name" AllowAutoFilter="False" Width="100"
+                                           Binding="{Binding Description}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="Type" AllowAutoFilter="False" Width="100"
+                                           Binding="{Binding TypeDescription}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="Compulsory"
+                                           Binding="{Binding CompulsoryDescription}" AllowAutoFilter="False"
+                                           CanUserSort="False" Width="*"/>
+            </DataGrid.Columns>
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Edit" Click="btnCMEdit_Click">
+                        <!--<MenuItem.Icon>
+                            <Image Width="12" Height="12" Source="Images/Delete.png" />
+                        </MenuItem.Icon>-->
+                    </MenuItem>
+                    <MenuItem Header="Delete" Click="btnCMDelete_Click" />
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </ExtendedGridControl:ExtendedDataGrid>
+    </Grid>
+</my:BaseUserControl>

@@ -1,0 +1,128 @@
+﻿<my:BaseUserControl
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:my ="clr-namespace:ES.UI"
+            Loaded="ClassAttendanceUserControl_Loaded"
+            xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" 
+            x:Class="ES.UI.Setups.ucClassAttendanceListView" 
+            xmlns:ExtendedGridControl="clr-namespace:ExtendedGrid.ExtendedGridControl;assembly=ExtendedGrid"
+            xmlns:ExtendedColumn="clr-namespace:ExtendedGrid.ExtendedColumn;assembly=ExtendedGrid"
+            mc:Ignorable="d" 
+            d:DesignHeight="200" d:DesignWidth="1160"
+            x:Name="ClassAttendanceUserControl">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="5" />
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="ShellHeader" Grid.Row="0">
+                <StackPanel Grid.Column="0" 
+                        DataContext="{Binding}" 
+                        Margin="5,5,0,5" 
+                        Orientation="Horizontal" 
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Stretch">
+
+                    <ComboBox
+                         Grid.Column="0" 
+                         Height="35" 
+                        Width="120" 
+                        Margin="10 -5 0 0"
+                        SelectionChanged="cmbClassList_SelectionChanged"
+                        x:Name="cmbClassList"
+                        HorizontalAlignment="Left"
+                        DisplayMemberPath="DisplayName"
+                        SelectedValuePath="DisplayID"
+                        ItemsSource="{Binding  Path=ClassDropDown, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                        SelectedValue="{Binding  Path=SelectedClassID, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                        IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                   
+                    <DatePicker
+                                 Grid.Column="2"
+                                 Width="180"
+                                Height="30"
+                                x:Name="radDatePicker"
+                        SelectedDateChanged="cmbClassList_SelectionChanged"
+                                HorizontalAlignment="Left"
+                                Margin="10 -5 0 0"
+                                                        
+                               SelectedDate="{Binding  Path=SelectedDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                               IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+
+                    <Button Content=" View "
+                            Margin="5 0 0 0"
+                                       Width="100"
+                            x:Name="btnViewAttendance"
+                            Click="btnViewAttendance_Click"/>
+                    <Button Content=" Mark "
+                            Margin="5 0 0 0"
+                                       Width="100"
+                            x:Name="btnMarkAttendance"
+                            Click="btnMarkAttendance_Click"/>
+                    
+                </StackPanel>
+            <StackPanel Grid.Column="1" 
+                        DataContext="{Binding}" 
+                        Margin="5,5,0,5" 
+                        Orientation="Horizontal" 
+                        HorizontalAlignment="Center" 
+                        VerticalAlignment="Stretch">
+            </StackPanel>
+        </Grid>
+
+        <ExtendedGridControl:ExtendedDataGrid  x:Name="gvClassAttendanceListView" 
+                                               Grid.Row="1"
+                                               ItemsSource="{Binding Path=AttendanceList, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                               AutoGenerateColumns="False" 
+                                               HideColumnChooser="True"
+                                               CanUserAddRows="False" 
+                                               OnlyTwoWaySorting="True"
+                                               SearchAutoFilterVisibility="Hidden" 
+                                               AutoFilterFontSize="12"
+                                               GroupByControlVisibility="Collapsed">
+            <DataGrid.Columns>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="Student Name" IsReadOnly="True" Width="200"  Binding="{Binding StudentName}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="01" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day01}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="02" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day02}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="03" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day03}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="04" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day04}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="05" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day05}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="06" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day06}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="07" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day07}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="08" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day08}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="09" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day09}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="10" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day10}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="11" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day11}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="12" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day12}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="13" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day13}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="14" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day14}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="16" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day15}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="17" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day16}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="18" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day17}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="19" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day19}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="20" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day20}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="21" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day21}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="22" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day22}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="23" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day23}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="24" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day24}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="25" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day25}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="26" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day26}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="27" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day27}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="28" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day28}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="29" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day29}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="30" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day30}"/>
+                <ExtendedColumn:ExtendedDataGridTextColumn Header="31" IsReadOnly="True" AllowAutoFilter="False" Width="3*"  Binding="{Binding Day31}"/>
+            </DataGrid.Columns>
+            <DataGrid.ContextMenu>
+                <ContextMenu >
+                    <MenuItem Header="Edit" Click="btnCMEdit_Click" />
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </ExtendedGridControl:ExtendedDataGrid>
+    </Grid>
+</my:BaseUserControl>

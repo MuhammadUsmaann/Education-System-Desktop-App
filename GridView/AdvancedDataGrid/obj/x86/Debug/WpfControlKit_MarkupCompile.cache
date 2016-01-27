@@ -1,0 +1,20 @@
+﻿WpfControlKit
+
+
+winexe
+C#
+.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\GridView\AdvancedDataGrid\obj\x86\Debug\
+TestClient
+none
+false
+DEBUG;TRACE
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\GridView\AdvancedDataGrid\App.xaml
+331815814204
+
+331352050634
+382053048986
+Theme\AuxiliaryResources.xaml;Theme\BackstageControls.xaml;Theme\Brushes.xaml;Theme\BureauBlue.xaml;Theme\Generic.xaml;Theme\ControlStyle.xaml;Theme\GlassButton.xaml;Theme\RibbonGroupBox.xaml;Theme\RibbonScrollViewer.xaml;Theme\ScrollBarWhite.xaml;UserControls\AutoFilterPlacerControl.xaml;UserControls\CodeViewer.xaml;UserControls\ColumnChooserPlacerControl.xaml;UserControls\ColumnInformationSave.xaml;UserControls\ColumnSplitterPlacerControl.xaml;UserControls\GroupingPlacerControl.xaml;UserControls\ThemesPlacerControl.xaml;UserControls\RowSummariesPlacerControl.xaml;UserControls\RowNumberPlacerControl.xaml;UserControls\FrozenRowsPlacerControl.xaml;UserControls\ReOrderRowsPlacerControl.xaml;UserControls\ScrollToolTipPlacerControl.xaml;UserControls\FooterPlacerControl.xaml;UserControls\ExortToCsvPlacerControl.xaml;UserControls\ExortToPdfPlacerControl.xaml;UserControls\ExportToExcelPlacerControl.xaml;UserControls\MultiTrippleSortPlacerControl.xaml;UserControls\TrippleSortPlacerControl.xaml;UserControls\CopyPastePlacerControl.xaml;Views\Dashboard.xaml;Views\InfoDialog.xaml;Views\SplashScreen.xaml;Views\Window1.xaml;
+
+True
+

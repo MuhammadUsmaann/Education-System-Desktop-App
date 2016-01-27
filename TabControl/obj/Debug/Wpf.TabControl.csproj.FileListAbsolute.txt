@@ -1,0 +1,36 @@
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\bin\Debug\Wpf.TabControl.dll
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\bin\Debug\Wpf.TabControl.pdb
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\obj\Debug\Wpf.TabControl.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\obj\Debug\Wpf.TabControl_MarkupCompile.cache
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\obj\Debug\Wpf.TabControl_MarkupCompile.lref
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\obj\Debug\Themes\Generic.baml
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\obj\Debug\Wpf.TabControl.g.resources
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\obj\Debug\Wpf.Controls.Properties.Resources.resources
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\obj\Debug\Wpf.TabControl.csproj.GenerateResource.Cache
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\obj\Debug\Wpf.TabControl.dll
+C:\Users\Muhammad Usman\Downloads\TabControl\TabControl\TabControl\obj\Debug\Wpf.TabControl.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\bin\Debug\Wpf.TabControl.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\bin\Debug\Wpf.TabControl.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl_MarkupCompile.cache
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl_MarkupCompile.lref
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\obj\Debug\Themes\Generic.baml
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl.g.resources
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\obj\Debug\Wpf.Controls.Properties.Resources.resources
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl.csproj.GenerateResource.Cache
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl.pdb
+E:\New Work\My Products\EducationSystemApp\TabControl\bin\Debug\Wpf.TabControl.dll
+E:\New Work\My Products\EducationSystemApp\TabControl\bin\Debug\Wpf.TabControl.pdb
+E:\New Work\My Products\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl.csprojResolveAssemblyReference.cache
+E:\New Work\My Products\EducationSystemApp\TabControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\New Work\My Products\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl_MarkupCompile.cache
+E:\New Work\My Products\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl_MarkupCompile.lref
+E:\New Work\My Products\EducationSystemApp\TabControl\obj\Debug\Themes\Generic.baml
+E:\New Work\My Products\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl.g.resources
+E:\New Work\My Products\EducationSystemApp\TabControl\obj\Debug\Wpf.Controls.Properties.Resources.resources
+E:\New Work\My Products\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl.csproj.GenerateResource.Cache
+E:\New Work\My Products\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl.dll
+E:\New Work\My Products\EducationSystemApp\TabControl\obj\Debug\Wpf.TabControl.pdb

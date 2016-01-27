@@ -1,0 +1,73 @@
+﻿<my:BaseUserControl
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:my ="clr-namespace:ES.UI"
+            Loaded="UserControl_Loaded"
+            xmlns:ExtendedGridControl="clr-namespace:ExtendedGrid.ExtendedGridControl;assembly=ExtendedGrid"
+            xmlns:ExtendedColumn="clr-namespace:ExtendedGrid.ExtendedColumn;assembly=ExtendedGrid"
+            x:Class="ES.UI.Setups.ucStaffListView" 
+            mc:Ignorable="d" 
+            d:DesignHeight="200" d:DesignWidth="800"
+            x:Name="StaffUserControl">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid x:Name="ShellHeader" Grid.Row="0">
+            
+                <StackPanel Grid.Column="0" 
+                        DataContext="{Binding}" 
+                        
+                        Orientation="Horizontal" 
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Stretch">
+                    <Button Content="Add"
+                            Margin="5 0 5 5"
+                            x:Name="btnAddStaff"
+                            Click="btnAddStaff_Click"
+                           />
+                    <Button Content="Refresh"
+                            Margin="5 0 5 5"
+                            x:Name="btnRefreshStaff"
+                            Click="btnRefreshStaff_Click"
+                           />
+
+                </StackPanel>
+        </Grid>
+
+        <ExtendedGridControl:ExtendedDataGrid  x:Name="gvStaffListView" 
+                                                   Grid.Row="1"
+                                                   ItemsSource="{Binding  Path=StaffList, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                                   AutoGenerateColumns="False"
+                                                   HideColumnChooser="True"
+                                                   ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                                                   ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                                   CanUserAddRows="False" 
+                                                   OnlyTwoWaySorting="True" 
+                                                   SearchAutoFilterVisibility="Collapsed" 
+                                                   AutoFilterFontSize="12"
+                                                   GroupByControlVisibility="Collapsed">
+            <DataGrid.Columns>
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Full Name" AllowAutoFilter="True" Width="*" Binding="{Binding FullName}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Joining Date" AllowAutoFilter="True" Width="*" Binding="{Binding Joining_date}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Contact number" AllowAutoFilter="True" Width="*" Binding="{Binding ContactNo1}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Address" AllowAutoFilter="True" Width="*" Binding="{Binding Address}" />
+            </DataGrid.Columns>
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Edit" Click="btnCMEdit_Click" />
+                    <MenuItem Header="View" Click="btnCMView_Click" />
+                    <MenuItem Header="Delete" Click="btnCMDelete_Click" />
+                </ContextMenu>
+            </DataGrid.ContextMenu>
+        </ExtendedGridControl:ExtendedDataGrid>
+    </Grid>
+</my:BaseUserControl>

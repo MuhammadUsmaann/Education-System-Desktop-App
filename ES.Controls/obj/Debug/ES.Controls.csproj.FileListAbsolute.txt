@@ -1,0 +1,10 @@
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Controls\bin\Debug\ES.Controls.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Controls\bin\Debug\ES.Controls.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Controls\obj\Debug\ES.Controls.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Controls\obj\Debug\ES.Controls.dll
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Controls\obj\Debug\ES.Controls.pdb
+E:\New Work\My Products\EducationSystemApp\ES.Controls\bin\Debug\ES.Controls.dll
+E:\New Work\My Products\EducationSystemApp\ES.Controls\bin\Debug\ES.Controls.pdb
+E:\New Work\My Products\EducationSystemApp\ES.Controls\obj\Debug\ES.Controls.csprojResolveAssemblyReference.cache
+E:\New Work\My Products\EducationSystemApp\ES.Controls\obj\Debug\ES.Controls.dll
+E:\New Work\My Products\EducationSystemApp\ES.Controls\obj\Debug\ES.Controls.pdb

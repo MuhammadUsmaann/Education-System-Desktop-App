@@ -1,0 +1,32 @@
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.exe.config
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.pdb
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Configurations.exe
+C:\Users\Muhammad Usman\Documents\Visual Studio 2013\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Configurations.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.exe.config
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Configurations.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Configurations.pdb
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.exe
+C:\Users\Numan Rock CH\OneDrive\Projects\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.exe.config
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Configurations.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Entities\bin\Debug\ES.Configurations.pdb
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.exe
+C:\Users\Muhammad Usman\OneDrive\Projects\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.pdb
+E:\New Work\My Products\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.dll.config
+E:\New Work\My Products\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.dll
+E:\New Work\My Products\EducationSystemApp\ES.Entities\bin\Debug\ES.Entities.pdb
+E:\New Work\My Products\EducationSystemApp\ES.Entities\bin\Debug\ES.Configurations.dll
+E:\New Work\My Products\EducationSystemApp\ES.Entities\bin\Debug\ES.Configurations.pdb
+E:\New Work\My Products\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.csprojResolveAssemblyReference.cache
+E:\New Work\My Products\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.dll
+E:\New Work\My Products\EducationSystemApp\ES.Entities\obj\Debug\ES.Entities.pdb

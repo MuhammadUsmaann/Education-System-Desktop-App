@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Orchestra.Shell.Ribbon.Fluent</name>
+    </assembly>
+    <members>
+        <member name="T:Orchestra.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Orchestra.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:MethodTimeLogger">
+            <summary>
+            Note: do not rename this class or put it inside a namespace.
+            </summary>
+        </member>
+        <member name="M:MethodTimeLogger.Log(System.Reflection.MethodBase,System.Int64)">
+            <summary>
+            Used by MethodTimer.
+            </summary>
+            <param name="methodBase"></param>
+            <param name="milliseconds"></param>
+        </member>
+        <member name="M:MethodTimeLogger.Log(System.Type,System.String,System.Int64)">
+            <summary>
+            Used by custom code.
+            </summary>
+            <param name="type"></param>
+            <param name="methodName"></param>
+            <param name="milliseconds"></param>
+        </member>
+        <member name="T:ModuleInitializer">
+            <summary>
+            Used by the ModuleInit. All code inside the Initialize method is ran as soon as the assembly is loaded.
+            </summary>
+            <summary>
+            Used by the ModuleInit. All code inside the Initialize method is ran as soon as the assembly is loaded.
+            </summary>
+        </member>
+        <member name="M:ModuleInitializer.Initialize">
+            <summary>
+            Initializes the module.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Services.IApplicationInitializationService.InitializeBeforeShowingSplashScreenAsync">
+            <summary>
+            Initialization code before showing the splash screen.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:Orchestra.Services.IApplicationInitializationService.InitializeBeforeCreatingShellAsync">
+            <summary>
+            Initialization code before creating the shell.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:Orchestra.Services.IApplicationInitializationService.InitializeAfterCreatingShellAsync">
+            <summary>
+            Initialization code after creating the shell.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:Orchestra.Services.IApplicationInitializationService.InitializeBeforeShowingShellAsync">
+            <summary>
+            Initialization code before showing the shell.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:Orchestra.Services.IApplicationInitializationService.InitializeAfterShowingShellAsync">
+            <summary>
+            Initialization code after showing the shell.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:Orchestra.Services.IShellService.CreateWithSplashAsync``1">
+            <summary>
+            Creates a new shell and shows a splash during the initialization.
+            </summary>
+            <typeparam name="TShell">The type of the shell.</typeparam>
+            <returns>The created shell.</returns>
+            <exception cref="T:Orchestra.OrchestraException">The shell is already created and cannot be created again.</exception>
+        </member>
+        <member name="M:Orchestra.Services.IShellService.CreateAsync``1">
+            <summary>
+            Creates a new shell.
+            </summary>
+            <typeparam name="TShell">The type of the shell.</typeparam>
+            <returns>The created shell.</returns>
+            <exception cref="T:Orchestra.OrchestraException">The shell is already created and cannot be created again.</exception>
+        </member>
+        <member name="P:Orchestra.Services.IShellService.Shell">
+            <summary>
+            Gets the shell.
+            </summary>
+            <value>The shell.</value>
+        </member>
+        <member name="F:Orchestra.Services.ShellService.Log">
+            <summary>
+            The log.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Services.ShellService.#ctor(Catel.IoC.ITypeFactory,Orchestra.Services.IKeyboardMappingsService,Catel.MVVM.ICommandManager,Orchestra.Services.ISplashScreenService,Orchestra.Services.IEnsureStartupService,Orchestra.Services.IApplicationInitializationService,Catel.IoC.IDependencyResolver)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Services.ShellService"/> class.
+            </summary>
+            <param name="typeFactory">The type factory.</param>
+            <param name="keyboardMappingsService">The keyboard mappings service.</param>
+            <param name="commandManager">The command manager.</param>
+            <param name="splashScreenService">The splash screen service.</param>
+            <param name="ensureStartupService">The ensure startup service.</param>
+            <param name="applicationInitializationService">The application initialization service.</param>
+            <param name="dependencyResolver">The dependency resolver.</param>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="typeFactory"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="keyboardMappingsService"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="commandManager"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="splashScreenService"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="applicationInitializationService"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="dependencyResolver"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:Orchestra.Services.ShellService.CreateWithSplashAsync``1">
+            <summary>
+            Creates a new shell and shows a splash during the initialization.
+            </summary>
+            <typeparam name="TShell">The type of the shell.</typeparam>
+            <returns>The created shell.</returns>
+            <exception cref="T:Orchestra.OrchestraException">The shell is already created and cannot be created again.</exception>
+        </member>
+        <member name="M:Orchestra.Services.ShellService.CreateAsync``1">
+            <summary>
+            Creates a new shell.
+            </summary>
+            <typeparam name="TShell">The type of the shell.</typeparam>
+            <returns>The created shell.</returns>
+            <exception cref="T:Orchestra.OrchestraException">The shell is already created and cannot be created again.</exception>
+        </member>
+        <member name="M:Orchestra.Services.ShellService.CreateShellInternalAsync``1(System.Action)">
+            <summary>
+            Creates a new shell.
+            </summary>
+            <typeparam name="TShell">The type of the shell.</typeparam>
+            <param name="postShowShellCallback">The shell created callback.</param>
+            <returns>The created shell.</returns>
+            <exception cref="T:Orchestra.OrchestraException">The shell is already created and cannot be created again.</exception>
+        </member>
+        <member name="P:Orchestra.Services.ShellService.Shell">
+            <summary>
+            Gets the shell.
+            </summary>
+            <value>The shell.</value>
+        </member>
+        <member name="F:Orchestra.Controls.RibbonBackstageButton.IsDefinitiveProperty">
+            <summary>
+            Using a DependencyProperty as the backing store for IsDefinitive.  This enables animation, styling, binding, etc...
+            </summary>
+        </member>
+        <member name="P:Orchestra.Controls.RibbonBackstageButton.IsDefinitive">
+            <summary>
+            Gets or sets whether ribbon control click must close backstage
+            </summary>
+        </member>
+        <member name="T:Orchestra.Views.ShellWindow">
+            <summary>
+            Interaction logic for ShellWindow.xaml.
+            </summary>
+            <summary>
+            ShellWindow
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.RibbonWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Windows.RibbonWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Windows.RibbonWindow.#ctor(Catel.MVVM.IViewModel)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Windows.RibbonWindow"/> class.
+            </summary>
+            <param name="viewModel">The view model.</param>
+        </member>
+        <member name="P:Orchestra.Windows.RibbonWindow.ViewModel">
+            <summary>
+            Gets the view model that is contained by the container.
+            </summary>
+            <value>The view model.</value>
+        </member>
+        <member name="E:Orchestra.Windows.RibbonWindow.ViewModelChanged">
+            <summary>
+            Occurs when the <see cref="P:Orchestra.Windows.RibbonWindow.ViewModel"/> property has changed.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.RibbonWindow.PropertyChanged">
+            <summary>
+            Occurs when a property on the container has changed.
+            </summary>
+            <remarks>
+            This event makes it possible to externally subscribe to property changes of a <see cref="T:System.Windows.DependencyObject"/>
+            (mostly the container of a view model) because the .NET Framework does not allows us to.
+            </remarks>
+        </member>
+        <member name="E:Orchestra.Windows.RibbonWindow.Catel#MVVM#Views#IView#Loaded">
+            <summary>
+            Occurs when the view is loaded.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.RibbonWindow.Catel#MVVM#Views#IView#Unloaded">
+            <summary>
+            Occurs when the view is unloaded.
+            </summary>
+        </member>
+        <member name="E:Orchestra.Windows.RibbonWindow.Catel#MVVM#Views#IView#DataContextChanged">
+            <summary>
+            Occurs when the data context has changed.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.ShellWindow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Orchestra.Views.ShellWindow"/> class.
+            </summary>
+        </member>
+        <member name="M:Orchestra.Views.ShellWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

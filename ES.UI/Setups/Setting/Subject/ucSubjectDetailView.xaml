@@ -1,0 +1,72 @@
+﻿<my:BaseUserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:my ="clr-namespace:ES.UI"
+             x:Class="ES.UI.Setups.ucSubjectDetailView" 
+             mc:Ignorable="d"
+             FontSize="14"
+             Padding="20 10 20 10"
+             Height="300"
+             Width="400"
+    Loaded="SubjectDetailUserControl_Loaded"
+             d:DesignHeight="300" x:Name="SubjectDetailUserControl" d:DesignWidth="400">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Subject Name : " VerticalAlignment="Center"  Grid.Row="0" />
+        <TextBox Grid.Row="0"
+                 Grid.Column="1"
+                 VerticalAlignment="Center"
+                 Width="200"
+                 IsEnabled="{Binding Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                 Height="35" 
+                 Text="{Binding  Path=SubjectDetail.Description, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextWrapping="Wrap" />
+
+        <Label Content="Subject Type: " VerticalAlignment="Center"  Grid.Row="1"  Grid.Column="0"/>
+        <ComboBox
+                Grid.Row="1" 
+                Grid.Column="3" 
+                Height="35" 
+            DisplayMemberPath="DisplayName" 
+                        SelectedValuePath="DisplayID"
+                ItemsSource="{Binding  Path=SubjectTypesList, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                SelectedValue="{Binding  Path=SubjectDetail.Type, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"                         
+                IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+        <Label Content="Compulsory : " VerticalAlignment="Center"  Grid.Row="2" Grid.Column="0"/>
+        <ComboBox
+                Grid.Row="2" 
+                Grid.Column="3" 
+                Height="35" 
+            DisplayMemberPath="DisplayName" 
+                        SelectedValuePath="DisplayID"
+                ItemsSource="{Binding  Path=SubjectCompulsoryTypesList, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                SelectedValue="{Binding  Path=SubjectDetail.Compulsory, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"                         
+                IsEnabled="{Binding  Path=Enabled, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+
+        <Button Content="{Binding  Path=SaveButtonContent, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" 
+                           Click="btnAddSubject_Click" 
+                           x:Name="btnAddSubject" 
+                           Grid.Row="3"
+                           Grid.Column="1"
+                           Height="45" 
+                           Width="100"
+                           HorizontalAlignment="Right"
+                           Margin="0 10 0 10" 
+                           />
+
+
+    </Grid>
+</my:BaseUserControl>
+

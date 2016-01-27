@@ -1,0 +1,81 @@
+﻿<my:BaseUserControl
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+            xmlns:ExtendedGridControl="clr-namespace:ExtendedGrid.ExtendedGridControl;assembly=ExtendedGrid"
+            xmlns:ExtendedColumn="clr-namespace:ExtendedGrid.ExtendedColumn;assembly=ExtendedGrid"
+            xmlns:my ="clr-namespace:ES.UI"
+            x:Class="ES.UI.Setups.ucParentFee" 
+            mc:Ignorable="d" 
+            d:DesignHeight="200" d:DesignWidth="1160"
+            x:Name="CustomUserControl">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="5" />
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="ShellHeader" Grid.Row="0">
+            <StackPanel Grid.Column="0" 
+                        DataContext="{Binding}" 
+                        Margin="5,5,0,5" 
+                        Orientation="Horizontal" 
+                        HorizontalAlignment="Left" 
+                        VerticalAlignment="Stretch">
+
+                <Button Content=" Search Parent "
+                            Margin="5 0 0 0"
+                            Width="100"
+                           x:Name="btnSearchParent"
+                           Click="btnSearchParent_Click" 
+                            />
+                
+                <!--<DatePicker
+                         Grid.Column="0" 
+                         Height="35" 
+                        Width="110" 
+                        Margin="10 -5 0 0"
+                        HorizontalAlignment="Left"
+                        />-->
+                
+               <Button Content=" Save Changes "
+                            Margin="5 0 0 0"
+                            Width="100"
+                           x:Name="btnSaveFeeDetail"
+                           Click="btnSaveFeeDetail_Click" 
+                            />
+            </StackPanel>
+        </Grid>
+        <ExtendedGridControl:ExtendedDataGrid  x:Name="grid" 
+                                               Grid.Row="1"
+                                               ItemsSource="{Binding  Path=ChildrenFeeDetailList, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                                               AutoGenerateColumns="False" 
+                                               HideColumnChooser="True"
+                                               ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                                               ScrollViewer.VerticalScrollBarVisibility="Auto"
+                                               CanUserAddRows="False" 
+                                               RowEditEnding="grid_RowEditEnding"
+                                               OnlyTwoWaySorting="True" 
+                                               SearchAutoFilterVisibility="Collapsed" 
+                                               AutoFilterFontSize="12"
+                                               GroupByControlVisibility="Collapsed">
+            <DataGrid.Columns>
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Role #" AllowAutoFilter="True" Width="*" Binding="{Binding StudentRoleNumber}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Student Name" AllowAutoFilter="True" Width="*" Binding="{Binding StudentName}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Parent Name" AllowAutoFilter="True" Width="*" Binding="{Binding ParentName}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Class" AllowAutoFilter="True" Width="70" Binding="{Binding ClassName}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Section" AllowAutoFilter="True" Width="50" Binding="{Binding SectionName}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Joining Date" AllowAutoFilter="True" Width="*" Binding="{Binding JoiningDate}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Fee Decided" AllowAutoFilter="True" Width="*" Binding="{Binding DecidedFee}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="False" Header="Paid"  AllowAutoFilter="True" Width="*" Binding="{Binding PaidFee}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Remaning" AllowAutoFilter="True" Width="*" Binding="{Binding RemainingFee}" />
+                <ExtendedColumn:ExtendedDataGridTextColumn IsReadOnly="True" Header="Last Paid Date" AllowAutoFilter="True" Width="*" Binding="{Binding PaidDate}" />
+            </DataGrid.Columns>
+        </ExtendedGridControl:ExtendedDataGrid>
+
+
+    </Grid>
+</my:BaseUserControl>

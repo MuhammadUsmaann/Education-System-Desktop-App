@@ -1,0 +1,100 @@
+﻿<my:BaseUserControl x:Class="ES.UI.CommonControls.RibbonControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:my ="clr-namespace:ES.UI"
+             d:DesignWidth="500"
+             Width="Auto" Height="Auto">
+    <Grid>
+        <Ribbon x:Name="RibbonWin"  SelectedIndex="3" Grid.Row="1" Loaded="RibbonWin_Loaded">
+            <Ribbon.QuickAccessToolBar >
+                <RibbonQuickAccessToolBar Visibility="Collapsed">
+                </RibbonQuickAccessToolBar>
+            </Ribbon.QuickAccessToolBar>
+            <!-- Application Menu, located at the left-hand side (down arrow) -->
+            
+            <Ribbon.ApplicationMenu>
+                <RibbonApplicationMenu Visibility="Collapsed" KeyTip="F">
+                    <RibbonApplicationMenuItem Header="Options"/>
+                    <RibbonApplicationMenuItem Header="Exit" />
+                </RibbonApplicationMenu>
+            </Ribbon.ApplicationMenu>
+            <RibbonTab Header="Finance" KeyTip="I">
+                <RibbonGroup x:Name="AttendancGroup" Header="Attedance">
+                    <RibbonButton LargeImageSource="..\Images\copy.png" Name="btnStudentFee" Label="Student Fee" Click="btnStudentFee_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png" Name="btnClassFee" Label="Class Fee" Click="btnClassFee_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png" Name="btnFamilyFee" Label="Family Fee" Click="btnFamilyFee_Click" />
+                </RibbonGroup>
+            </RibbonTab>
+
+            <RibbonTab Header="Attendance" >
+                <RibbonGroup x:Name="AttendanceGroup" Header="Attedance">
+                    <RibbonButton LargeImageSource="..\Images\copy.png" Name="btnMarkClassAtnd" Label="Mark Class Attendance" Click="btnMarkClassAtnd_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png" Name="btnClassAttendance" Label="Class" Click="btnClassAttendance_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png" Name="btnStudentAttendance" Label="Student" Click="btnStudentAttendance_Click" />
+                </RibbonGroup>
+            </RibbonTab>
+            <RibbonTab Header="Exams">
+                <RibbonGroup x:Name="ExamsGroup" Header="Exams">
+                    <RibbonButton LargeImageSource="..\Images\copy.png"  Name="btnEnterStudentMarkView" Label="Student Mark" Click="btnEnterStudentMarkView_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png"  Name="btnEnterClassMarkView" Label="Class Marks" Click="btnEnterClassMarkView_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png"   Name="btnClassResultView" Label="Class Result"  Click="btnClassResultView_Click" />
+                    <!--<RibbonButton LargeImageSource="..\Images\copy.png"  Name="btnClassListVsiew" Label="Single Class Result List" Click="btnClassListView_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png" Name="btnClassLisstView" Label="Sinlge Student Result" Click="btnClassListView_Click" />-->
+                </RibbonGroup>
+            </RibbonTab>
+            
+            <!-- Ribbon Tab #1: Home -->
+            <RibbonTab Header="Setting" KeyTip="H" >
+
+                <RibbonGroup x:Name="ClipboardAsdasd" Header="People">
+                    <RibbonButton LargeImageSource="..\Images\copy.png"  Name="btnStudentListView" Label="Students" Click="btnStudentListView_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png"  Name="btnStaffListView" Label="Staff" Click="btnStaffListView_Click" />
+                </RibbonGroup>
+                <!-- Home  group-->
+                <RibbonGroup x:Name="ClipboardGroup" Header="Setups">
+                    <!--<RibbonMenuButton LargeImageSource="..\Images\paste.png" Label="Paste" KeyTip="V">
+                        <RibbonMenuItem ImageSource="..\Images\paste.png" Header="Keep Text Only" KeyTip="T"/>
+                        <RibbonMenuItem ImageSource="..\Images\paste.png" Header="Paste Special..." KeyTip="S"/>
+                    </RibbonMenuButton>
+                    <RibbonButton LargeImageSource="..\Images\cut.png" Label="Cut" KeyTip="X" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png" Label="Copy" KeyTip="C" />
+                    <RibbonButton SmallImageSource="..\Images\format_painter.png" Label="Format Painter" KeyTip="FP" />-->
+                    <RibbonButton LargeImageSource="..\Images\copy.png"  Name="btnClassListView" Label="Classes" Click="btnClassListView_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png"  Name="btnSessionListView" Label="Sessions" Click="btnSessionListView_Click" />
+                    
+                    <RibbonButton LargeImageSource="..\Images\copy.png" Name="btnSubjectListView" Label="Subjects" Click="btnSubjectListView_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png"  Name="btnExamsListView" Label="Exams" Click="btnExamsListView_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png" Name="btnGradesListView" Label="Grades" Click="btnGradesListView_Click" />
+                    <RibbonButton LargeImageSource="..\Images\copy.png" Name="btnSectionsListView" Label="Sections" Click="btnSectionsListView_Click" />
+                </RibbonGroup>
+
+                <!-- Employee And Payroll group-->
+                <!--<RibbonGroup x:Name="Employee" Header="Employee And Payroll">
+                    <RibbonMenuButton LargeImageSource="..\Images\personal.png" Label="Employee" KeyTip="V">
+                        <RibbonMenuItem ImageSource="..\Images\paste.png" Header="Keep Text Only" KeyTip="T"/>
+                        <RibbonMenuItem ImageSource="..\Images\paste.png" Header="Paste Special..." KeyTip="S"/>
+                    </RibbonMenuButton>
+                    <RibbonButton SmallImageSource="..\Images\save.png" Label="Save" KeyTip="X" />
+                    <RibbonButton SmallImageSource="..\Images\add.png" Label="Add" KeyTip="C" />
+
+                </RibbonGroup>-->
+
+            </RibbonTab>
+
+            <!-- Ribbon Tab #2: Launch -->
+            <RibbonTab Header="Finance" KeyTip="I">
+                <!-- Launch/Applications group-->
+
+
+            </RibbonTab>
+
+            <RibbonTab Header="PageLayout" KeyTip="L">
+                <!-- Launch/Applications group-->
+
+            </RibbonTab>
+        </Ribbon>
+    </Grid>
+</my:BaseUserControl>
